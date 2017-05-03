@@ -4,13 +4,13 @@ layout: default
 
 # [](#header-1)Music Buzzer: "Little Star"
 
-## [](#header-2)1.Brief Intro
+## [](#header-2)Brief Intro for MB
 
 Music Buzzer uses a simple buzzer to play beautiful sounds. In this project, the melody of "Little Star" is played.
 
 The frequency of buzzer controls its pitch, while the time per note controls the beats. When they come together, a beautiful sound is played. Just enjoy it ^_^
 
-## [](#header-2)1.Source Code
+## [](#header-2)Source Code for MB
 
 ```Arduino
 /*------------音符对应蜂鸣器频率------------*/
@@ -158,11 +158,11 @@ void loop() {
 
 # [](#header-1)Audio-Controlled Light
 
-## [](#header-2)2.Brief Intro
+## [](#header-2)Brief Intro for ACL
 
 Wow! A light that can be lightened by sound when its dark. Come and have a look!
 
-## [](#header-2)2.Source Code
+## [](#header-2)Source Code for ACL
 
 ```Arduino
 #include <Adafruit_NeoPixel.h>  //调用LED彩灯的库文件
