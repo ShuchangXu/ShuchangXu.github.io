@@ -2,25 +2,15 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# [](#header-1)Music Buzzer: "Little Star"
 
-[Link to another page](another-page).
+### [](#header-3)Brief Intro
 
-There should be whitespace between paragraphs.
+Music Buzzer uses a simple buzzer to play beautiful sounds. In this project, the melody of "Little Star" is played.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The frequency of buzzer controls its pitch, while the time per note controls the beats. When they come together, a beautiful sound is played. Just enjoy it ^_^
 
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
+### [](#header-3)Source Code
 
 ```Arduino
 /*------------音符对应蜂鸣器频率------------*/
@@ -164,102 +154,71 @@ void loop() {
 }
 ```
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+* * *
+
+# [](#header-1)Audio-Controlled Light
+
+### [](#header-3)Brief Intro
+
+Wow! A light that can be lightened by sound when its dark. Come and have a look!
+
+### [](#header-3)Source Code
+
+```Arduino
+#include <Adafruit_NeoPixel.h>  //调用LED彩灯的库文件
+
+Adafruit_NeoPixel ColorLED = Adafruit_NeoPixel(1, 6, NEO_GRB + NEO_KHZ800);
+//定义彩灯引脚以及数量
+
+
+int state; //定义一个整数变量state
+int stateSound;
+
+int Light=0;
+double timeP=0.0;
+
+void setup()
+{
+  ColorLED.begin();
+  pinMode(A0, INPUT); //设置光敏传感器引脚为输入状态
+  pinMode(A2, INPUT); //设置声敏传感器引脚为输入状态
+  Serial.begin(9600); //设置串口波特率为9600
+}
+void loop()
+{
+  state = analogRead(A0);
+  stateSound = analogRead(A2);
+  Serial.print("state:");
+  Serial.println(state);
+  Serial.print("state2:");
+  Serial.println(stateSound);
+
+  if(Light==0){
+    if (state < 50 && stateSound>100) { //天黑且有声音,亮灯
+      Light=1;
+      timeP=millis();
+    }
+  }
+  else {
+    if(stateSound>100){
+      timeP=millis();
+    }
+    else{
+      if(millis()-timeP>5000){
+        Light=0;
+      }
+    }
+  }
+
+  if(Light==1){
+    ColorLED.setPixelColor(0, ColorLED.Color(255, 0, 0));  //设置彩灯颜色为红色
+    ColorLED.show();  //显示彩灯效果
+  }
+  else
+  {
+    ColorLED.setPixelColor(0, ColorLED.Color(0, 0, 0));  //设置彩灯颜色为红色
+    ColorLED.show();  //显示彩灯效果
+  }
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
