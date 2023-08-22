@@ -91,7 +91,7 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3195970.3195975">A machine learning framework to identify detailed routing short violations from a placed netlist</a></div>
-    <div class="author">Aysa Fakheri Tabrizi, Nima Karimpour Darav, <strong>Shuchang Xu</strong>, Logan Rakai, Ismail Bustany, Andrew Kennings, Laleh Behjat</div>
+    <div class="author">Aysa Tabrizi, Nima Darav, <strong>Shuchang Xu</strong>, Logan Rakai, Ismail Bustany, Andrew Kennings, Laleh Behjat</div>
     <div class="periodical"><em>Proceedings of the 55th Annual Design Automation Conference. 2018</em></div>
     <div class="links">
       <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/1_MLRouting.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
