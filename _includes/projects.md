@@ -29,7 +29,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="" target="_blank">Glasses-free Virtual Reality Game based on Gaze Interaction</a></div>
+    <div class="title"><a href="" target="_blank">Glasses-free Virtual Reality Game based on Gaze Interaction with iPhone Face ID</a></div>
     <div class="author">Contribution: Implementation (50%), Scene Art (40%)</div>
     <div class="links">
       <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
