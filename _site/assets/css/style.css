@@ -263,19 +263,19 @@ h6 {
 h1 {
   font-weight: 500;
   color: #000000;
-  margin: 20 0 8px; }
+  margin: 0 0 8px; }
 
 h2 {
   color: #000000;
   font-weight: 500;
-  margin: 2px 0px 15px;
+  margin: 15px 0px 15px;
   font-size: 157%; }
 
 @media (prefers-color-scheme: dark) {
   h1{
     font-weight: 500;
     color: #d6d6d6;
-    margin: 20 0 8px; 
+    margin: 0 0 8px; 
   }
 
   h3 {
