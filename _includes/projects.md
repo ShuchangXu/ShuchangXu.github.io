@@ -26,7 +26,7 @@
 </div>
 </li> -->
 
-<h3 id="XR" style="margin: 2px 0px -15px;">AR/VR Games & Apps</h3>
+<h3 id="XR" style="margin: 2px 0px 0px;">AR/VR Games & Apps</h3>
 <li>
 <div class="pub-row">
 
@@ -52,7 +52,7 @@
 </li>
   
 
-<h3 id="EduGames" style="margin: 2px 0px -15px;">Educational Games</h3>
+<h3 id="EduGames" style="margin: 2px 0px 0px;">Educational Games</h3>
 <li>
 <div class="pub-row">
 
@@ -75,7 +75,7 @@
 </div>
 </li>
 
-<h3 id="rendering" style="margin: 2px 0px -15px;">Real-time Rendering</h3>
+<h3 id="rendering" style="margin: 2px 0px 0px;">Real-time Rendering</h3>
 <li>
 <div class="pub-row">
 
