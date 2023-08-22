@@ -11,8 +11,26 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2306.06534">Zeal of Trial: A Multiplayer Mixed Reality Game on HoloLens</a></div>
-    <div class="author"><strong>Shuchang Xu, Yuqian Sun, Yilin Zhu, Feng wang</strong></div>
+    <div class="title">Zeal of Trial: A Multiplayer Mixed Reality Game on HoloLens</div>
+    <div class="author">Contribution: Interaction Design (50%), Implementation (80%)</div>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/XR2_iphoneX.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">VR Game</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Glasses-free Virtual Reality Game based on Gaze Interaction</div>
+    <div class="author">Contribution: Implementation (50%), Scene Art (40%)</div>
     <div class="links">
       <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
