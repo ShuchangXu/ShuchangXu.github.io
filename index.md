@@ -7,14 +7,15 @@ I'm an incoming Ph.D. student (2024 Spring) and currently a Research Assistant i
 
 Before joining VisLab, I received inter-disciplinary education at <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, obtaining a master's degree in <a href="https://www.cs.tsinghua.edu.cn/csen/" target="_blank">Computer Science and Technology</a> (supervised by Prof. <a href= "https://pi.cs.tsinghua.edu.cn" target = "_blank">Yuanchun Shi</a>), a first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and a second bachelor's degree in <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">Digital Meida Art</a>. I also accumulated 2 years of experience in the industry, working as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a>
 
-Currently, I aim to explore interaction and visualization techniques in VR/AR, with the vision of making VR/AR easy-to-use and accessible for everyone.
+During my Ph.D. studies, I aim to explore interaction and visualization techniques in VR/AR, with the vision of making VR/AR easy-to-use and accessible for everyone.
 
 ## Research Interests
 - **Interaction and Visualization in VR/AR** to improve the user experience
-- **Accessible Interaction Techniques** to support daily activities for visually impaired people
+- **Accessible Interaction Techniques** for people with impairment
 
 ## Publications
 {% include_relative _includes/publications.md %}
+
 
 ## Projects on AR/VR
 {% include_relative _includes/projects.md %}
@@ -22,13 +23,6 @@ Currently, I aim to explore interaction and visualization techniques in VR/AR, w
 ## Projects on Educational Games
 
 ## Projects on Real-time Rendering
-
-
-
-
-
-
-<!-- {% include_relative _includes/talks.md %} -->
 
 ## Working Experience
 During 2021-2023, I worked as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a> for two years.
