@@ -7,7 +7,7 @@ I'm a Research Assistant and an incoming Ph.D. student (2024 Spring) in <a href=
 
 Before joining VisLab, I pursued my bachelor's and master's degree at <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, obtaining a master's degree in <a href="https://www.cs.tsinghua.edu.cn/csen/" target="_blank">Computer Science and Technology</a> (supervised by Prof. <a href= "https://pi.cs.tsinghua.edu.cn" target = "_blank">Yuanchun Shi</a>), a first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and a second bachelor's degree in <a href="https://www.enad.tsinghua.edu.cn/" target="_blank">Digital Meida Art</a>. I also accumulated 2 years of experience in the industry, working as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a>.
 
-During my upcoming Ph.D. studies, I aim to explore interaction and visualization techniques in Virtual/Augmented Reality, with the vision of making techs easy-to-use and accessible for everyone.
+<!-- During my upcoming Ph.D. studies, I aim to explore interaction and visualization techniques in Virtual/Augmented Reality, with the vision of making techs easy-to-use and accessible for everyone. -->
 
 ## Research Interests
 - **Interaction and Visualization in VR/AR**, aiming to improve the user experience
