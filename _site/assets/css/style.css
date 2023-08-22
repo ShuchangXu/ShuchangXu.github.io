@@ -263,7 +263,7 @@ h6 {
 h1 {
   font-weight: 500;
   color: #000000;
-  margin: 0 0 8px; }
+  margin: 20 0 8px; }
 
 h2 {
   color: #000000;
@@ -275,7 +275,7 @@ h2 {
   h1{
     font-weight: 500;
     color: #d6d6d6;
-    margin: 0 0 8px; 
+    margin: 20 0 8px; 
   }
 
   h3 {
