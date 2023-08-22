@@ -52,7 +52,7 @@
 </li>
   
 
-<h3 id="EduGames" style="margin: 10px 0px 4px;">Educational Games</h3>
+<h3 id="EduGames" style="margin: 20px 0px 4px;">Educational Games</h3>
 <li>
 <div class="pub-row">
 
@@ -75,7 +75,7 @@
 </div>
 </li>
 
-<h3 id="rendering" style="margin: 10px 0px 4px;">Real-time Rendering</h3>
+<h3 id="rendering" style="margin: 20px 0px 4px;">Real-time Rendering</h3>
 <li>
 <div class="pub-row">
 
