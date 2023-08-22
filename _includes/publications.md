@@ -5,7 +5,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/6_LightGuide.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">IMWUT 21</abbr>
   </div>
 
@@ -25,7 +25,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/5_TactileCompass.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">CHI 21</abbr>
   </div>
 
@@ -45,7 +45,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/4_VirtualPaving.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">IMWUT 20</abbr>
   </div>
 
@@ -65,7 +65,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/3_TappingRing.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">UIST 19</abbr>
   </div>
 
@@ -85,7 +85,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/1_MLRouting.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">DAC 18</abbr>
   </div>
 
