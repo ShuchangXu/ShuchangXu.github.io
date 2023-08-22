@@ -52,9 +52,9 @@ screen and (min-width: 480px) {
   }
 }
 
-/* .publications {
-  margin-top: 0em;
-} */
+.publications {
+  margin-top: 0rem;
+}
 
 .publications h1 {
   color: var(--global-theme-color);
