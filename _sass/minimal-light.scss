@@ -267,9 +267,9 @@ papertitle {
   width: 100%;
 }
 
-// .image.avatar {
-//   border-radius: 0%;
-// }
+.image.avatar {
+  margin-top: 30px;
+}
 
 
 .image.avatar:before {
@@ -301,7 +301,7 @@ papertitle {
 
 
 #header .image.avatar {
-  margin-top: 30px !important;
+  margin-top: 30px;
   width: 8.00em;
 }
 
