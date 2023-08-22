@@ -5,23 +5,28 @@ layout: homepage
 ## About Me
 I'm a Research Assistant and an incoming Ph.D. student (2024 Spring) in <a href="https://cse.hkust.edu.hk/" target="_blank">Computer Science and Engineering</a> at <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>, under the supervision of Prof. <a href="http://www.huamin.org/" target="_blank">Huamin Qu</a> at <a href="http://vis.cse.ust.hk/" target="_blank">VisLab</a>. My research interests lie in the field of Human-Computer Interaction and Visualization, with a focus on improving user experience in VR/AR.
 
-Before joining VisLab, I pursued my bachelor's and master's degrees in different disciplines at <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, obtaining a master's degree in <a href="https://www.cs.tsinghua.edu.cn/csen/" target="_blank">Computer Science and Technology</a> (supervised by Prof. <a href= "https://pi.cs.tsinghua.edu.cn" target = "_blank">Yuanchun Shi</a>), a first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and a second bachelor's degree in <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">Digital Meida Art</a>. I also accumulated 2 years of experience in the industry, working as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a>.
+Before joining VisLab, I pursued my bachelor's and master's degrees in different disciplines at <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, obtaining a master's degree in <a href="https://www.cs.tsinghua.edu.cn/csen/" target="_blank">Computer Science and Technology</a> (supervised by Prof. <a href= "https://pi.cs.tsinghua.edu.cn" target = "_blank">Yuanchun Shi</a>), a first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and a second bachelor's degree in <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">Digital Meida Art</a>. I also accumulated 2 years of experience in the industry, working as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a> with the aim of applying my skills to creating influential products for social good, 
 
 In the future, I will focus on exploring interaction and visualization techniques in VR/AR, with the vision of making VR/AR easy-to-use and accessible for everyone.
 
 ## Research Interests
-My research mainly focuses on:
-- **Interaction and Visualization Techniques in VR/AR** to improve the user experience in VR/AR
+- **Interaction and Visualization in VR/AR** to improve the user experience
 - **Accessible Interaction Techniques** to support daily activities for visually impaired people
 
-I'm also passionate about the following topics in my spare time:
-- **Innovative Interaction Design** in specific AR/VR games and applications
-- **Educational Game Design** to facilitate learning
-- **Real-time Rendering in Games** to create stylized artistic effects
-
+## Publications
 {% include_relative _includes/publications.md %}
 
+## Projects on AR/VR
 {% include_relative _includes/projects.md %}
+
+## Projects on Educational Games
+
+## Projects on Real-time Rendering
+
+
+
+
+
 
 <!-- {% include_relative _includes/talks.md %} -->
 
