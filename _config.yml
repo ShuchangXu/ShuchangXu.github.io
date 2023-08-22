@@ -3,30 +3,28 @@ url: "shuchangxu.github.io"
 # Basic Information 
 title: Shuchang Xu
 # subtitle:
-position: Ph.D. Student
+position: Incoming Ph.D. Student
 
-subposition_link: https://nyu-medicine-cssa.github.io
 affiliation: Hong Kong University of Science and Technology
 subaffiliation: Computer Science and Engineering
 affiliation_link: https://hkust.edu.hk
-subaffiliation_link: 
+subaffiliation_link: https://cse.hkust.edu.hk
 email: xsc14thu@gmail.com
-address: Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
-address_link: https://goo.gl/maps/aQZfmiKjQmqbDsVY9
-
+address: Clear Water Bay, Hong Kong
+address_link: https://goo.gl/maps/gXLKzoRZXst1JaGV9
 
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: shuchang xu, tsinghua, HKUST
+keywords: shuchang xu, tsinghua, HKUST, HCI
 description: shuchang xu's personal homepage
 canonical: https://shuchangxu.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=bePCCD8AAAAJ&hl=en
-cv_link: assets/files/HanchaoZhangCV.pdf
-github_link: https://github.com/Hanchao-Zhang
+google_scholar: https://scholar.google.com/citations?hl=en&user=aztYItYAAAAJ
+# cv_link: assets/files/HanchaoZhangCV.pdf
+github_link: https://github.com/ShuchangXu
 # linkedin: https://www.linkedin.com/in/hanchao-ted-zhang-670105b7/?locale=en_US
 # twitter: https://twitter.com/tedddddy_zhang
 

@@ -3,29 +3,33 @@ layout: homepage
 ---
 
 ## About Me
+I'm a Research Assistant and an incoming Ph.D. student (2024 Spring) in <a href="https://cse.hkust.edu.hk/" target="_blank">Computer Science and Engineering</a> at <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>, under the supervision of Prof. <a href="http://www.huamin.org/" target="_blank">Huamin Qu</a> at <a href="http://vis.cse.ust.hk/" target="_blank">VisLab</a>. My research interests lie in the field of human-computer interaction (HCI) and visualization, with a focus on improving the user experience in VR/AR.
 
-Welcome to my homepage! My name is Shuchang Xu 许书畅. It means <i>getting joy from reading</i> in Chinese.
+During my bachelor's and master's study, I received inter-disciplinary education in <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, obtaining a master's degree in Computer Science and Technology (supervised by Prof. <a href= "https://pi.cs.tsinghua.edu.cn" target = "_blank">Yuanchun Shi</a>), a first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and a second bachelor's degree in <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">Digital Meida Art</a>. Before joining VisLab, I accumulated 2 years of experience in the industry, working as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a>.
 
-I'm currently a Research Assistant in the Department of Computer Science and Engineering at <a href="http://vis.cse.ust.hk/" target="_blank">VisLab</a> of <a href="https://hkust.edu.hk/" target="_blank">the Hong Kong University of Science and Technology</a>, under the mentorship of Prof. <a href="http://www.huamin.org/" target="_blank">Huamin Qu</a>. In my upcoming research, I aim to explore novel interaction and visualization techniques in VR/AR.
-
-Prior to joining VisLab, I'm fortunate to receive inter-disciplinary education at <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, where I obtained my master's degree in Computer Science and Technology at <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">HCI Lab</a> supervised by Prof. <a href= "https://scholar.google.com/citations?user=TZm3-pwAAAAJ&hl=en" target = "_blank">Yuanchun Shi</a>, my first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and my second bachelor's degree in Digital Meida Art at <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">the Academy of Art and Design</a>. Thanks to these diverse backgrounds, I acquired solid experience in several topics that I'm passionate about, including: (1) interaction techniques for visually impaired people, (2) innovative interaction design in AR/VR applications, (3) game design for educational purposes, and (4) real-time rendering in games.
-
-After master graduation, with the aim of applying my mixed skills to creating influential products for social good, I joined <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a> as a product manager. During my two years in Xiaomi, I focused on designing Smart Home Automation products that enable users to unlock the full potential of their smart home. It's fulfilling that our products transform the life of 8 million daily active users worldwide.
+Guided by my past, I aim to explore that can 
 
 ## Research Interests
-- **Manifold Learning:** positive semi-definite manifolds learning
-- **Machine Learning:** fairness AI, penalization and augmentation methods
-- **Functional Data Analysis:** functional regression, and clustering methods
-- **High-Dimensional Statistics:** matrix-valued regression and clustering, positive semi-definite matrices estimations
+My research mainly focuses on:
+- **Interaction and Visualization Techniques in VR/AR** to improve the user experience in VR/AR
+- **Accessible Interaction Techniques** to support daily activities for visually impaired people
 
+I'm also passionate about the following topics in my spare time:
+- **Innovative Interaction Design** in specific AR/VR games and applications
+- **Educational Game Design** to facilitate learning
+- **Real-time Rendering in Games** to create stylized artistic effects
 
-<!-- {% include_relative _includes/publications.md %} -->
+{% include_relative _includes/publications.md %}
 
 {% include_relative _includes/projects.md %}
 
-{% include_relative _includes/talks.md %}
+<!-- {% include_relative _includes/talks.md %} -->
 
+## Working Experience
+During 2021-2023, I worked as a product manager in <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a> for two years.
 
+with the aim of applying my mixed skills to creating influential products for social good, 
+During my  in Xiaomi, I focused on designing Smart Home Automation products that enable users to unlock the full potential of their smart home. It's fulfilling that our products transform the life of 8 million daily active users worldwide.
 
 
 
