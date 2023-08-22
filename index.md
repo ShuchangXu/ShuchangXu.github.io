@@ -26,6 +26,7 @@ with the aim of applying my mixed skills to creating influential products for so
 During my  in Xiaomi, I focused on designing Smart Home Automation products that enable users to unlock the full potential of their smart home. It's fulfilling that our products transform the life of 8 million daily active users worldwide. -->
 
 ## Awards
+- **[Jun. 2021]** Outstanding Graduates in Computer Science and Technology, Tsinghua University
 - **[Oct. 2020]** National Scholarship for Postgraduates
 - **[Oct. 2019]** National Scholarship for Postgraduates
 - **[Dec. 2017]** Microsoft Design Contest for Mixed Reality, 2nd place

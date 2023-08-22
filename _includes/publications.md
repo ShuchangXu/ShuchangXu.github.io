@@ -6,7 +6,7 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">IMWUT</abbr>
+    <abbr class="badge">IMWUT 21</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -26,12 +26,12 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">CHI</abbr>
+    <abbr class="badge">CHI 21</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3411764.3445644">Tactile Compass: Enabling Visually Impaired People to Follow a Path with Continuous Directional Feedback</a></div>
-    <div class="author">Guanhong Liu, Tianyu Yu, Chun Yu, Haiqing Xu, <strong>Shuchang Xu</strong>, Ciyuan Yang, Feng Wang, Haipeng Mi, Yuanchun Shi</div>
+    <div class="author">Guanhong Liu, Tianyu Yu, Chun Yu, Haiqing Xu, <strong>Shuchang Xu⁵</strong>, Ciyuan Yang, Feng Wang, Haipeng Mi, Yuanchun Shi</div>
     <div class="periodical"><em>Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, 2021</em></div>
     <div class="links">
       <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/5_TactileCompass.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -46,12 +46,12 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">IMWUT</abbr>
+    <abbr class="badge">IMWUT 20</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3411814">Virtual Paving: Rendering a Smooth Path for People with Visual Impairment through Vibrotactile and Audio Feedback</a></div>
-    <div class="author"><strong>Shuchang Xu¹</strong>, Ciyuan Yang¹, Wenhao Ge, Chun Yu, and Yuanchun Shi</div>
+    <div class="author"><strong>Shuchang Xu¹</strong>, Ciyuan Yang, Wenhao Ge, Chun Yu, and Yuanchun Shi</div>
     <div class="periodical"><em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2020</em></div>
     <div class="links">
       <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/4_VirtualPaving.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -66,12 +66,12 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">UIST</abbr>
+    <abbr class="badge">UIST 19</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3332165.3347947">Accurate and Low-Latency Sensing of Touch Contact on Any Surface with Finger-Worn IMU Sensor</a></div>
-    <div class="author">Yizheng Gu, Chun Yu, Zhipeng Li, Weiqi Li, <strong>Shuchang Xu</strong>, Xiaoying Wei, Yuanchun Shi</div>
+    <div class="author">Yizheng Gu, Chun Yu, Zhipeng Li, Weiqi Li, <strong>Shuchang Xu⁵</strong>, Xiaoying Wei, Yuanchun Shi</div>
     <div class="periodical"><em>Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology, 2019</em></div>
     <div class="links">
       <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/3_TappingRing.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -86,12 +86,12 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/nips2023.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">DAC</abbr>
+    <abbr class="badge">DAC 18</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3195970.3195975">A machine learning framework to identify detailed routing short violations from a placed netlist</a></div>
-    <div class="author">Aysa Tabrizi, Nima Darav, <strong>Shuchang Xu</strong>, Logan Rakai, Ismail Bustany, Andrew Kennings, Laleh Behjat</div>
+    <div class="author">Aysa Tabrizi, Nima Darav, <strong>Shuchang Xu³</strong>, Logan Rakai, Ismail Bustany, Andrew Kennings, Laleh Behjat</div>
     <div class="periodical"><em>Proceedings of the 55th Annual Design Automation Conference. 2018</em></div>
     <div class="links">
       <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/1_MLRouting.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
