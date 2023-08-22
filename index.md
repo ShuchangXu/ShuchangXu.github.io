@@ -4,18 +4,13 @@ layout: homepage
 
 ## About Me
 
-I'm a <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/" target="_blank"> Biostatistics</a> Ph.D. candidate at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>'s <a href="https://med.nyu.edu/" target="_blank"> Grossman School of Medicine</a>,
-<!-- , specifically within the <a href="https://med.nyu.edu/research/sackler-institute-graduate-biomedical-sciences/" target="_blank"> Vilcek institute of Biomedical Sciences</a> and the Department of <a href="https://med.nyu.edu/departments-institutes/population-health/" target="_blank"> Population Health</a>. Under the mentorship of Prof.  -->
-working under the mentorship of Prof.<a href="https://med.nyu.edu/faculty/thaddeus-tarpey" target="_blank"> Thaddeus Tarpey</a>. My research involves developing statistical models that cater to high-dimensional complex data, such as functional and imaging data.
+Welcome to my homepage! My name is Shuchang Xu 许书畅. It means <i>getting joy from reading</i> in Chinese.
 
-In the summer of 2022, I had the opportunity to work as a Data Scientist Intern at <a href="https://about.google" target="_blank"> Google</a>, where I applied my statistical skills to real-world problems. 
-Prior to joining the Ph.D. program, I completed my master's degree in Biostatistics and Data Science from <a href="https://www.cornell.edu" target = "_blank"> Cornell University</a> advised by Prof. <a href= "https://www.idiaz.xyz" target = "_blank"> Iván Díaz</a>, and my bachelor's degree in International Finance from <a href="https://www.cueb.edu.cn" target = "_blank"> Capital University of Economics and Business</a>. 
+I'm currently a Research Assistant in the Department of Computer Science and Engineering at <a href="http://vis.cse.ust.hk/" target="_blank">VisLab</a> of <a href="https://hkust.edu.hk/" target="_blank">the Hong Kong University of Science and Technology</a>, under the mentorship of Prof. <a href="http://www.huamin.org/" target="_blank">Huamin Qu</a>. In my upcoming research, I aim to explore novel interaction and visualization techniques in VR/AR.
 
-<!-- 
-I am an alumnus of the <a href="https://opencasestudies.github.io/" target="_blank"> Open Case Study Project</a> at <a href="https://www.jhsph.edu/" target="_blank"> the Bloomberg School of Public Health </a> of <a href="https://www.jhu.edu/" target="_blank"> the Johns Hopkins University</a>. -->
+Prior to joining VisLab, I'm fortunate to receive inter-disciplinary education at <a href="https://www.tsinghua.edu.cn/en/" target = "_blank">Tsinghua University</a>, where I obtained my master's degree in Computer Science and Technology at <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">HCI Lab</a> supervised by Prof. <a href= "https://scholar.google.com/citations?user=TZm3-pwAAAAJ&hl=en" target = "_blank">Yuanchun Shi</a>, my first bachelor's degree in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and my second bachelor's degree in Digital Meida Art at <a href="https://pi.cs.tsinghua.edu.cn/publication/" target="_blank">the Academy of Art and Design</a>. Thanks to these diverse backgrounds, I acquired solid experience in several topics that I'm passionate about, including: (1) interaction techniques for visually impaired people, (2) innovative interaction design in AR/VR applications, (3) game design for educational purposes, and (4) real-time rendering in games.
 
-Outside of academia, I began my journey as a professional swimmer at the age of 5 and went on to achieve several regional and national championships. I'm also passionate about Chinese calligraphy, and my artwork has been exhibited in top galleries and museums including the <a href="http://www.namoc.org/" target="_blank"> National Art Museum of China (Beijing)</a>. In addition, I am also interested in oil painting, and aeromodelling.
-
+After master graduation, with the aim of applying my mixed skills to creating influential products for social good, I joined <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corp.</a> as a product manager. During my two years in Xiaomi, I focused on designing Smart Home Automation products that enable users to unlock the full potential of their smart home. It's fulfilling that our products transform the life of 8 million daily active users worldwide.
 
 ## Research Interests
 - **Manifold Learning:** positive semi-definite manifolds learning
