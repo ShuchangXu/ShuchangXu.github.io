@@ -272,7 +272,12 @@ h2 {
   font-size: 157%; }
 
 @media (prefers-color-scheme: dark) {
-  h1,
+  h1{
+    font-weight: 500;
+    color: #d6d6d6;
+    margin: 0 0 8px; 
+  }
+
   h3 {
     font-weight: 300;
     color: #d6d6d6;
