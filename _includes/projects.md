@@ -1,7 +1,7 @@
 <div class="publications">
 <ol class="bibliography">
 
-<h3 id="XR" style="margin: 10px 0px 4px;">XR Games & Apps</h3>
+<h3 id="XR" style="margin: 10px 0px 8px;">- XR Games</h3>
 <li>
 <div class="pub-row">
 
@@ -11,7 +11,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Zeal of Trial: A Multiplayer Mixed Reality Game on HoloLens</div>
+    <div class="title"><a href="https://www.youtube.com/watch?v=4gedNJmVAP4" target="_blank">Trial of Zeal: A Multiplayer Mixed Reality Game on HoloLens</a></div>
     <div class="author">Contribution: Interaction Design (50%), Implementation (80%)</div>
     <div class="links">
       <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
@@ -29,17 +29,17 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Glasses-free Virtual Reality Game based on Gaze Interaction</div>
+    <div class="title"><a href="" target="_blank">Glasses-free Virtual Reality Game based on Gaze Interaction</a></div>
     <div class="author">Contribution: Implementation (50%), Scene Art (40%)</div>
     <div class="links">
-      <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
 </div>
 </li>
   
 
-<h3 id="EduGames" style="margin: 20px 0px 4px;">Educational Games</h3>
+<h3 id="EduGames" style="margin: 20px 0px 8px;">- Educational Games</h3>
 <li>
 <div class="pub-row">
 
@@ -62,7 +62,7 @@
 </div>
 </li>
 
-<h3 id="rendering" style="margin: 20px 0px 4px;">Real-time Rendering</h3>
+<h3 id="rendering" style="margin: 20px 0px 8px;">- Real-time Rendering</h3>
 <li>
 <div class="pub-row">
 
