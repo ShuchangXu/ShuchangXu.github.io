@@ -11,12 +11,13 @@ Before joining VisLab, I pursued my bachelor's and master's degree at <a href="h
 
 ## Research Interests
 - **Interaction and Visualization in VR/AR**, aiming to improve the user experience
-- **Accessible Interaction Techniques**, aiming to make techs accessible for everyone
+- **Accessible Interaction Techniques**, aiming to make techs accessible to everyone
 
 ## Publications
 {% include_relative _includes/publications.md %}
 
 ## Projects
+Besides research, I participated in several projects that I'm passionate about, including:
 {% include_relative _includes/projects.md %}
 
 <!-- ## Working Experience
