@@ -126,54 +126,26 @@
 </div>
 </li>
 
-<h3 id="Rendering" style="margin: 20px 0px 8px;">• Game VFX</h3>
+<h3 id="Rendering" style="margin: 20px 0px 8px;">• Rendering Techs</h3>
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/RTR2_Cloud.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/RTR0.png" class="teaser img-fluid z-depth-1">
     <!-- <abbr class="badge">Cloud</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://github.com/ShuchangXu/VolumeCloud" target="_blank">Stylized Volumetric Cloud based on 3D Modelling</a></div>
+    <div class="title"><a href="" target="_blank">Collections of Real-Time Rendering Techs</a></div>
     <div class="links">
-      <a href="https://github.com/ShuchangXu/VolumeCloud" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Github</a>
+      <a href="https://github.com/ShuchangXu/VolumeCloud" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Volumetric Cloud</a>
+      <a href="https://github.com/ShuchangXu/ComputerGraphics/blob/master/2.TerrainEngine(A6)/Report.md" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Flowing Water</a>
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Avalanche</a>
     </div>
   </div>
 </div>
 </li>
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/RTR3_Flow.png" class="teaser img-fluid z-depth-1">
-    <!-- <abbr class="badge">Water</abbr> -->
-  </div>
 
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://github.com/ShuchangXu/ComputerGraphics/blob/master/2.TerrainEngine(A6)/Report.md" target="_blank">Realistic Water Flow Effect with Flow Map</a></div>
-    <div class="links">
-      <a href="https://github.com/ShuchangXu/ComputerGraphics/blob/master/2.TerrainEngine(A6)/Report.md" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Github</a>
-    </div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/RTR1_Avalanche.png" class="teaser img-fluid z-depth-1">
-    <!-- <abbr class="badge">Water</abbr> -->
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="" target="_blank">Realistic Avalanche Simulation with Houdini</a></div>
-    <div class="links">
-    </div>
-  </div>
-</div>
-</li>
-  
 <br>
 
 </ol>
