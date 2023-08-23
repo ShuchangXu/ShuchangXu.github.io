@@ -6,7 +6,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/XR1_hololens.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">MR Game</abbr>
+    <!-- <abbr class="badge">MR Game</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -23,7 +23,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/XR2_iphoneX.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">VR Game</abbr>
+    <!-- <abbr class="badge">VR Game</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -42,7 +42,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/EDU1_Rainbow.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Equity</abbr>
+    <!-- <abbr class="badge">Equity</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -61,7 +61,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/EDU2_EE.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Circuit</abbr>
+    <!-- <abbr class="badge">Circuit</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -78,7 +78,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/EDU3_AIDS.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Equity</abbr>
+    <!-- <abbr class="badge">Equity</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -96,7 +96,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/FUN1_Her.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Equity</abbr>
+    <!-- <abbr class="badge">Equity</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -113,7 +113,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/FUN2_MrREAL.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Truth</abbr>
+    <!-- <abbr class="badge">Truth</abbr> -->
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -121,6 +121,55 @@
     <div class="author">Contribution: Dev (50%), Game Design (20%)</div>
     <div class="links">
       <a href="https://youtu.be/d06zUiQLdrg" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<h3 id="Rendering" style="margin: 20px 0px 8px;">• Game VFX</h3>
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/RTR2_Cloud.png" class="teaser img-fluid z-depth-1">
+    <!-- <abbr class="badge">Cloud</abbr> -->
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://github.com/ShuchangXu/VolumeCloud" target="_blank">Stylized Volumetric Cloud based on 3D Modelling</a></div>
+    <div class="links">
+      <a href="https://github.com/ShuchangXu/VolumeCloud" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Github</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/RTR3_Flow.png" class="teaser img-fluid z-depth-1">
+    <!-- <abbr class="badge">Water</abbr> -->
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://github.com/ShuchangXu/ComputerGraphics/blob/master/2.TerrainEngine(A6)/Report.md" target="_blank">Realistic Water Flow Effect with Flow Map</a></div>
+    <div class="links">
+      <a href="https://github.com/ShuchangXu/ComputerGraphics/blob/master/2.TerrainEngine(A6)/Report.md" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Github</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/RTR1_Avalanche.png" class="teaser img-fluid z-depth-1">
+    <!-- <abbr class="badge">Water</abbr> -->
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="" target="_blank">Realistic Avalanche Simulation with Houdini</a></div>
+    <div class="links">
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Github</a>
     </div>
   </div>
 </div>
