@@ -11,7 +11,7 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://www.youtube.com/watch?v=4gedNJmVAP4" target="_blank">Trial of Zeal: A Multiplayer Mixed Reality Game on HoloLens</a></div>
-    <div class="author">Contribution: Interaction Design (50%), Game Dev (80%)</div>
+    <div class="author">Contribution: Interaction Design (50%), Dev (80%)</div>
     <div class="links">
       <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
@@ -28,7 +28,7 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://youtu.be/WtkFE1TVr0I" target="_blank">a Glasses-free Virtual Reality Game based on Gaze Interaction with iPhone</a></div>
-    <div class="author">Contribution: Rendering Dev (80%), Scene Art (40%)</div>
+    <div class="author">Contribution: Dev (50%), Scene Art (50%)</div>
     <div class="links">
       <a href="https://youtu.be/WtkFE1TVr0I" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
@@ -169,7 +169,6 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="" target="_blank">Realistic Avalanche Simulation with Houdini</a></div>
     <div class="links">
-      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Github</a>
     </div>
   </div>
 </div>
