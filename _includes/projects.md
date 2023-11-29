@@ -1,42 +1,6 @@
 <div class="publications">
 <ol class="bibliography">
 
-<h3 id="XR" style="margin: 10px 0px 8px;">• XR Games</h3>
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/XR1_hololens.png" class="teaser img-fluid z-depth-1">
-    <!-- <abbr class="badge">MR Game</abbr> -->
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.youtube.com/watch?v=4gedNJmVAP4" target="_blank">Trial of Zeal: A Multiplayer Mixed Reality Game on HoloLens</a></div>
-    <div class="author">Contribution: Interaction Design (50%), Dev (80%)</div>
-    <div class="links">
-      <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
-    </div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/XR2_iphoneX.png" class="teaser img-fluid z-depth-1">
-    <!-- <abbr class="badge">VR Game</abbr> -->
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://youtu.be/WtkFE1TVr0I" target="_blank">a Glasses-free Virtual Reality Game based on Gaze Interaction with iPhone</a></div>
-    <div class="author">Contribution: Dev (50%), Scene Art (50%)</div>
-    <div class="links">
-      <a href="https://youtu.be/WtkFE1TVr0I" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
-    </div>
-  </div>
-</div>
-</li>
-  
-
 <h3 id="EduGames" style="margin: 20px 0px 8px;">• Educational Games</h3>
 <li>
 <div class="pub-row">
@@ -121,6 +85,41 @@
     <div class="author">Contribution: Dev (50%), Game Design (20%)</div>
     <div class="links">
       <a href="https://youtu.be/d06zUiQLdrg" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<h3 id="XR" style="margin: 10px 0px 8px;">• Games Beyond 2D Screen</h3>
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/XR1_hololens.png" class="teaser img-fluid z-depth-1">
+    <!-- <abbr class="badge">MR Game</abbr> -->
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://www.youtube.com/watch?v=4gedNJmVAP4" target="_blank">Trial of Zeal: A Multiplayer Mixed Reality Game on HoloLens</a></div>
+    <div class="author">Contribution: Interaction Design (50%), Dev (80%)</div>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=4gedNJmVAP4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/XR2_iphoneX.png" class="teaser img-fluid z-depth-1">
+    <!-- <abbr class="badge">VR Game</abbr> -->
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://youtu.be/WtkFE1TVr0I" target="_blank">a Glasses-free Virtual Reality Game based on Gaze Interaction with iPhone</a></div>
+    <div class="author">Contribution: Dev (50%), Scene Art (50%)</div>
+    <div class="links">
+      <a href="https://youtu.be/WtkFE1TVr0I" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
 </div>
