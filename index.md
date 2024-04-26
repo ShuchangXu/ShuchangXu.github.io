@@ -27,7 +27,7 @@ with the aim of applying my mixed skills to creating influential products for so
 During my  in Xiaomi, I focused on designing Smart Home Automation products that enable users to unlock the full potential of their smart home. It's fulfilling that our products transform the life of 8 million daily active users worldwide. -->
 
 ## Awards
-- **[Apr. 2024]** <a href="https://cerg1.ugc.edu.hk/hkpfs/index.html" target="_blank">Hong Kong Postgraduate Fellowshop Scheme (HKPFS)</a>
+- **[Apr. 2024]** <a href="https://fytgs.hkust.edu.hk/scholarships/hong-kong-phd-fellowship-scheme" target="_blank">Hong Kong Postgraduate Fellowshop Scheme (HKPFS)</a>
 - **[Jun. 2021]** Outstanding Graduates in Computer Science and Technology, Tsinghua University
 - **[Oct. 2020]** National Scholarship for Postgraduates
 - **[Oct. 2019]** National Scholarship for Postgraduates
