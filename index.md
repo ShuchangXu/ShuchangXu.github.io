@@ -12,7 +12,7 @@ Before joining VisLab, I pursued my bachelor's and master's degree at <a href="h
 ## Research Interests
 **1. Accessibility Technologies**: Exploring new interaction techniques that help people with visual impairment access and engage with visual information.
 
-**2. Educational Game Design**: Creating interactive experiences that raise awareness of social topics through engaging gameplay.
+**2. Educational Game Design**: Raising awareness of social topics through engaging gameplay.
 
 ## Publications
 {% include_relative _includes/publications.md %}
