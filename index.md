@@ -10,8 +10,9 @@ Before joining VisLab, I pursued my bachelor's and master's degree at <a href="h
 <!-- During my upcoming Ph.D. studies, I aim to explore interaction and visualization techniques in Virtual/Augmented Reality, with the vision of making techs easy-to-use and accessible for everyone. -->
 
 ## Research Interests
-**Accessibility Technologies**: Exploring new interaction techniques that help people with visual impairment access and engage with visual information.
-**Educational Game Design**: Creating interactive experiences that raise awareness of social topics through engaging gameplay.
+**1. Accessibility Technologies**: Exploring new interaction techniques that help people with visual impairment access and engage with visual information.
+
+**2. Educational Game Design**: Creating interactive experiences that raise awareness of social topics through engaging gameplay.
 
 ## Publications
 {% include_relative _includes/publications.md %}
