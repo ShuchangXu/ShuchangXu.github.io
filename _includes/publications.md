@@ -10,7 +10,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3411814">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a></div>
+    <div class="title"><a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/master/assets/files/7_MemoryReviver.pdf">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a></div>
     <div class="author"><strong>Shuchang Xu¹</strong>, Chang Chen, Zichen Liu, Xiaofu Jin, Linping Yuan, Yukang Yan, Huamin Qu</div>
     <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2020</em></div> -->
     <div class="links">
