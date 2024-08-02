@@ -5,6 +5,26 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/7_MemoryReviver.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">UIST 24</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3411814">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a></div>
+    <div class="author"><strong>Shuchang Xu¹</strong>, Chang Chen, Zichen Liu, Xiaofu Jin, Linping Yuan, Yukang Yan, Huamin Qu</div>
+    <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2020</em></div> -->
+    <div class="links">
+      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/master/assets/files/7_MemoryReviver.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/master/assets/videos/7_MemoryReviver.mp4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/4_VirtualPaving.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">IMWUT 20</abbr>
   </div>
