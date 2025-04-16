@@ -5,6 +5,26 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/8_DanmuA11y.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CHI 25</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2501.15711">DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</a></div>
+    <div class="author"><strong>Shuchang Xu¹</strong>, Xiaofu Jin, Huamin Qu, Yukang Yan</div>
+    <div class="periodical"><em>CHI 2025, Best Paper Honorable Mention Award</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2501.15711" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://youtu.be/WAzINk5wnAg" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/7_MemoryReviver.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">UIST 24</abbr>
   </div>
@@ -25,26 +45,6 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/4_VirtualPaving.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">IMWUT 20</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3411814">Virtual Paving: Rendering a Smooth Path for People with Visual Impairment through Vibrotactile and Audio Feedback</a></div>
-    <div class="author"><strong>Shuchang Xu¹</strong>, Ciyuan Yang, Wenhao Ge, Chun Yu, and Yuanchun Shi</div>
-    <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2020</em></div> -->
-    <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/4_VirtualPaving.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://www.youtube.com/watch?v=0VDHas8I1l4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
-    </div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/6_LightGuide.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">IMWUT 21</abbr>
   </div>
@@ -56,6 +56,26 @@
     <div class="links">
       <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/6_LightGuide.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://youtu.be/VxyO71kiZ1s?si=ulgRWvXQfdWAco6U" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/4_VirtualPaving.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">IMWUT 20</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3411814">Virtual Paving: Rendering a Smooth Path for People with Visual Impairment through Vibrotactile and Audio Feedback</a></div>
+    <div class="author"><strong>Shuchang Xu¹</strong>, Ciyuan Yang, Wenhao Ge, Chun Yu, and Yuanchun Shi</div>
+    <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2020</em></div> -->
+    <div class="links">
+      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/4_VirtualPaving.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://www.youtube.com/watch?v=0VDHas8I1l4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
     </div>
   </div>
 </div>
