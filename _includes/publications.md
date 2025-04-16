@@ -6,13 +6,13 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/8_DanmuA11y.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">CHI 25</abbr>
+    <abbr class="badge">🏅 CHI 25</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2501.15711">DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</a></div>
     <div class="author"><strong>Shuchang Xu¹</strong>, Xiaofu Jin, Huamin Qu, Yukang Yan</div>
-    <div class="periodical"><em>CHI 2025, Best Paper Honorable Mention Award</em></div>
+    <div class="periodical"><em>CHI 2025, Best Paper Honorable Mention Award 🏅</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2501.15711" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://youtu.be/WAzINk5wnAg" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
