@@ -28,10 +28,11 @@ with the aim of applying my mixed skills to creating influential products for so
 During my  in Xiaomi, I focused on designing Smart Home Automation products that enable users to unlock the full potential of their smart home. It's fulfilling that our products transform the life of 8 million daily active users worldwide. -->
 
 ## News
-- **[April. 2025]** Our paper <strong>DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</strong> received the Best Paper Honorable Mention Award 🏅 in CHI 2025. Congratulations to all the collaborators!
+- **[April. 2025 🏅]** Our paper <strong>DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</strong> received Best Paper Honorable Mention Award at CHI 2025. Congratulations to all the collaborators!
 - **[Aug. 2024]** Our paper <strong>Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</strong> has been accepted by UIST 2024. Thank all the co-authors and participants for your invaluable support!
 
 ## Awards
+- **[April. 2025]** Best Paper Honorable Mention Award at CHI 2025
 - **[Apr. 2024]** <a href="https://fytgs.hkust.edu.hk/scholarships/hong-kong-phd-fellowship-scheme" target="_blank">Hong Kong Postgraduate Fellowshop Scheme (HKPFS)</a>
 - **[Jun. 2021]** Outstanding Graduates in Computer Science and Technology, Tsinghua University
 - **[Oct. 2020]** National Scholarship for Postgraduates
