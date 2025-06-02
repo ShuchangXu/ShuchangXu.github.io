@@ -30,11 +30,11 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/master/assets/files/7_MemoryReviver.pdf">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a></div>
+    <div class="title"><a href="https://shuchangxu.github.io/assets/files/7_MemoryReviver.pdf">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a></div>
     <div class="author"><strong>Shuchang Xu¹</strong>, Chang Chen, Zichen Liu, Xiaofu Jin, Linping Yuan, Yukang Yan, Huamin Qu</div>
     <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2020</em></div> -->
     <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/master/assets/files/7_MemoryReviver.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://shuchangxu.github.io/assets/files/7_MemoryReviver.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://raw.githubusercontent.com/ShuchangXu/ShuchangXu.github.io/master/assets/videos/7_MemoryReviver.mp4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
@@ -54,7 +54,7 @@
     <div class="author"><strong>Shuchang Xu¹</strong>, Ciyuan Yang, Wenhao Ge, Chun Yu, and Yuanchun Shi</div>
     <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2020</em></div> -->
     <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/4_VirtualPaving.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://shuchangxu.github.io/assets/files/4_VirtualPaving.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://www.youtube.com/watch?v=0VDHas8I1l4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
     </div>
   </div>
@@ -74,7 +74,7 @@
     <div class="author">Ciyuan Yang¹, <strong>Shuchang Xu¹</strong>, Tianyu Yu, Guanhong Liu, Chun Yu*, Yuanchun Shi</div>
     <!-- <div class="periodical"><em>Proceedings of the ACM on IMWUT, 2021</em></div> -->
     <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/6_LightGuide.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://shuchangxu.github.io/assets/files/6_LightGuide.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://youtu.be/VxyO71kiZ1s?si=ulgRWvXQfdWAco6U" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
     </div>
   </div>
@@ -94,7 +94,7 @@
     <div class="author">Guanhong Liu, Tianyu Yu, Chun Yu, Haiqing Xu, <strong>Shuchang Xu⁵</strong>, Ciyuan Yang, Feng Wang, Haipeng Mi, Yuanchun Shi</div>
     <!-- <div class="periodical"><em>Proceedings of the CHI Conference, 2021</em></div> -->
     <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/5_TactileCompass.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://shuchangxu.github.io/assets/files/5_TactileCompass.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://youtu.be/esd5_9PWTfU?si=zOho0wIWVlPLNnkp" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
     </div>
   </div>
@@ -114,7 +114,7 @@
     <div class="author">Yizheng Gu, Chun Yu, Zhipeng Li, Weiqi Li, <strong>Shuchang Xu⁵</strong>, Xiaoying Wei, Yuanchun Shi</div>
     <!-- <div class="periodical"><em>Proceedings of the ACM Symposium on UIST, 2019</em></div> -->
     <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/3_TappingRing.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://shuchangxu.github.io/assets/files/3_TappingRing.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://www.youtube.com/watch?v=23bBnU6sDdA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
     </div>
   </div>
@@ -134,7 +134,7 @@
     <div class="author">Aysa Tabrizi, Nima Darav, <strong>Shuchang Xu³</strong>, Logan Rakai, Ismail Bustany, Andrew Kennings, Laleh Behjat</div>
     <!-- <div class="periodical"><em>Proceedings of DAC. 2018</em></div> -->
     <div class="links">
-      <a href="https://github.com/ShuchangXu/ShuchangXu.github.io/blob/0000fdc3833bf3ff78b26ab8259944c86c65da92/assets/files/1_MLRouting.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://shuchangxu.github.io/assets/files/1_MLRouting.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
     </div>
   </div>
 </div>
