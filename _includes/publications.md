@@ -36,6 +36,7 @@
     <div class="links">
       <a href="https://shuchangxu.github.io/assets/files/7_MemoryReviver.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://raw.githubusercontent.com/ShuchangXu/ShuchangXu.github.io/master/assets/videos/7_MemoryReviver.mp4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      <a href="https://youtu.be/GOZ4DWdUdc0" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Talk</a>
     </div>
   </div>
 </div>

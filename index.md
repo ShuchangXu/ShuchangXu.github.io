@@ -21,8 +21,8 @@ Beyond accessibility, I conduct collaborative research on human-AI systems that 
 
 ## News
 - **[July 2025]** <strong>Three full papers have been conditionally accepted to UIST 2025!</strong> 🎉 This includes one first-author paper on 360° video accessibility and two collaborative papers on human-AI collaboration. Congratulations to all co-authors!
-- **[April 2025]** Our paper <strong>DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</strong> received the <strong>Best Paper Honorable Mention Award at CHI 2025</strong>🏅. Congratulations to all collaborators!
-- **[August 2024]** Our paper <strong>Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</strong> has been accepted by <strong>UIST 2024</strong>. Thank all the co-authors and participants for your invaluable support!
+- **[April 2025]** Our paper <a href="https://dl.acm.org/doi/10.1145/3706598.3713496" target="_blank">DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</a> received the <strong>Best Paper Honorable Mention Award at CHI 2025</strong>🏅. Congratulations to all collaborators!
+- **[August 2024]** Our paper <a href="https://dl.acm.org/doi/10.1145/3654777.3676336" target="_blank">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a> has been accepted by <strong>UIST 2024</strong>. Thank all the co-authors and participants for your invaluable support!
 
 ## Publications
 {% include_relative _includes/publications.md %}
