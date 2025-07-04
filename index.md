@@ -27,8 +27,8 @@ Beyond accessibility, I collaborate on human-AI systems research that enhance hu
 ## Publications
 {% include_relative _includes/publications.md %}
 
-## Games
-Outside of research, I build indie games that encourage players to reflect on societal issues, including:
+## Game Projects
+Outside of research, I design indie games that encourage players to explore new knowledge, reflect on social issues, and reconsider how we interact with the digital world. These projects include:
 {% include_relative _includes/projects.md %}
 
 ## Awards
