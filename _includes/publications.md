@@ -12,7 +12,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2507.09959">Branch Explorer: Leveraging Branching Narratives to Support Interactive 360° Video Viewing for Blind and Low Vision Users</a></div>
     <div class="author"><strong>Shuchang Xu¹</strong>, Xiaofu Jin, Wenshuo Zhang, Huamin Qu, Yukang Yan</div>
-    <div class="periodical"><em>UIST 2025</em></div>
+    <div class="periodical"><em>Proceedings of the ACM Symposium on UIST, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2507.09959" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
     </div>
