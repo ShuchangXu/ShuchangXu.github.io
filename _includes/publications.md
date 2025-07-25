@@ -15,6 +15,7 @@
     <div class="periodical"><em>Proceedings of the ACM Symposium on UIST, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2507.09959" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://youtu.be/AW8jinSEehI" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
 </div>
