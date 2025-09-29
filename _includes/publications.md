@@ -69,7 +69,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://dl.acm.org/doi/10.1145/3746059.3747613"></a></div>
+    <div class="title"><a href="https://dl.acm.org/doi/10.1145/3746059.3747613">RhythmTA: A Visual-Aided Interactive System for ESL Rhythm Training via Dubbing Practice</a></div>
     <div class="author">Chang Chen, Sicheng Song, <strong>Shuchang Xu³</strong>, Zhicheng Li, Huamin Qu, Yanna Lin</div>
     <div class="periodical"><em>Proceedings of the ACM Symposium on UIST, 2025</em></div>
     <div class="links">
