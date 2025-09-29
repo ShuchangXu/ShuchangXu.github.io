@@ -45,7 +45,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/10_NeuroSync.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">UIST 25</abbr>
   </div>
 
@@ -64,7 +64,7 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/11_RhythmTA.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">UIST 25</abbr>
   </div>
 

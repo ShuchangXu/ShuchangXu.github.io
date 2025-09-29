@@ -10,7 +10,7 @@ Before my PhD studies, I earned both my bachelor's and master's degrees from <a 
 ## News
 - **[Sep 2025]** Excited to be attending UIST 2025, Ubicomp 2025, and CSCW 2025. Looking forward to connecting with you!
 - **[Sep 2025]** Our collaborative work <a href="https://dl.acm.org/doi/10.1145/3746059.3747668" target="_blank">NeuroSync</a> received the Best Paper Honorable Mention Award at UIST 2025🏅. Congratulations to all collaborators!
-- **[July 2025]** <strong>Three full papers have been accepted to UIST 2025!</strong> 🎉 This includes one first-author paper on 360° video accessibility and two collaborative papers on human-AI collaboration. Congratulations to all co-authors!
+- **[July 2025]** <strong>Three full papers have been accepted to UIST 2025!</strong>  This includes one first-author paper on 360° video accessibility and two collaborative papers on human-AI collaboration. Congratulations to all co-authors!
 - **[April 2025]** Our work <a href="https://dl.acm.org/doi/10.1145/3706598.3713496" target="_blank">DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</a> received the Best Paper Honorable Mention Award at CHI 2025🏅. Congratulations to all collaborators!
 - **[August 2024]** Our work <a href="https://dl.acm.org/doi/10.1145/3654777.3676336" target="_blank">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a> has been accepted by UIST 2024. Thank all the co-authors and participants for your invaluable support!
 
