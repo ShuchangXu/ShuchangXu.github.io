@@ -65,6 +65,25 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/8_DanmuA11y.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CHI 26</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://dl.acm.org/doi/10.1145/3706598.3713496">Wearable AR for Restorative Breaks: How Interactive Narrative Experiences Support Relaxation for Young Adults</a></div>
+    <div class="author">Jindu Wang, Runze Cai, <strong>Shuchang Xu³</strong>, Tianrui Hu, Huamin Qu, Shengdong Zhao, Linping Yuan</div>
+    <div class="periodical"><em>Proceedings of the CHI Conference, 2026</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2602.16323" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/11_RhythmTA.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">UIST 25</abbr>
   </div>
