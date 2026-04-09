@@ -8,13 +8,13 @@ I'm a PhD Candidate in <a href="https://cse.hkust.edu.hk/" target="_blank">Compu
 Before my PhD studies, I earned both my bachelor's and master's degrees from <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>, including an M.S. in <a href="https://www.cs.tsinghua.edu.cn/csen/" target="_blank">Computer Science</a> (advised by Prof. <a href="https://pi.cs.tsinghua.edu.cn" target="_blank">Yuanchun Shi</a>), a B.E. in <a href="https://www.eea.tsinghua.edu.cn/en/" target="_blank">Electrical Engineering</a>, and a B.A. in <a href="https://www.enad.tsinghua.edu.cn/" target="_blank">Digital Media Art</a>. I also spent two years as a software product manager at <a href="https://www.mi.com/global/about/" target="_blank">Xiaomi Corporation</a>.
 
 ## News
-- **[Apr 2026]** I've started my visiting program at MIT Media Lab! Excited to connect with you.
+- **[Apr 2026]** I've started my visiting program at MIT Media Lab. Excited to connect with you!
 - **[Mar 2026]** Check out our online demo for <a href="https://shuchangxu.github.io/Sonic_Stage_Demo/" target="_blank">Sonic Stage</a>, a system that augments spatial awareness for blind users in watching film and television.
 - **[Feb 2026]** One collaborative paper and one poster have been accepted to CHI 2026.
 - **[Sep 2025]** Our collaborative work <a href="https://dl.acm.org/doi/10.1145/3746059.3747668" target="_blank">NeuroSync</a> received the Best Paper Honorable Mention Award at UIST 2025🏅.
 - **[July 2025]** Three full papers have been accepted to UIST 2025: one first-author paper on 360° video accessibility and two collaborative papers on human-AI collaboration.
-- **[April 2025]** Our work <a href="https://dl.acm.org/doi/10.1145/3706598.3713496" target="_blank">DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users via Multi-Viewer Audio Discussions</a> received the Best Paper Honorable Mention Award at CHI 2025🏅.
-- **[August 2024]** Our work <a href="https://dl.acm.org/doi/10.1145/3654777.3676336" target="_blank">Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot</a> has been accepted by UIST 2024.
+- **[April 2025]** Our work <a href="https://dl.acm.org/doi/10.1145/3706598.3713496" target="_blank">DanmuA11y</a> received the Best Paper Honorable Mention Award at CHI 2025🏅.
+- **[August 2024]** Our work <a href="https://dl.acm.org/doi/10.1145/3654777.3676336" target="_blank">Memory Reviver</a> has been accepted by UIST 2024.
 
 ## Research Overview
 My research centers on developing AI-powered interactive systems that augment **human perception and cognition** for blind and aging populations. I pursue this vision through three core areas:
