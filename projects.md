@@ -9,7 +9,7 @@ class: projects
 # Projects
 
 {:.lead}
-My research explores how AI technologies can enhance human cognition, particularly in three core areas: (1) Enhanced Perception, (2) Enhanced Memory and Reasoning, and (3) Enhanced Behavior. Beyond research, I also design indie games that raise awareness for real-world societal issues.
+My research explores how AI technologies can augment human cognition across three core domains: enhanced perception, enhanced memory, and enhanced behavior.
 
 ## Enhanced Perception
 
@@ -25,7 +25,7 @@ My research explores how AI technologies can enhance human cognition, particular
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Enhanced Memory and Reasoning
+## Enhanced Memory
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Memory and Reasoning" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
@@ -40,7 +40,7 @@ My research explores how AI technologies can enhance human cognition, particular
 ## Indie Game Projects
 
 {:.lead}
-I design indie games that raise awareness for real-world societal issues. Most of the code lives on [GitHub](https://github.com/{{ site.github_username }}).
+Beyond my research, I create indie games that raise awareness of real-world social issues. Most of the code lives on [GitHub](https://github.com/{{ site.github_username }}).
 
 <div class="grid">
   {% for project in site.data.projects %}
