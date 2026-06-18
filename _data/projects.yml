@@ -37,14 +37,3 @@
   image: XR1_hololens.png
   video: https://www.youtube.com/watch?v=4gedNJmVAP4
   highlight: 3
-
-- title: "Glasses-free VR"
-  description: "A glasses-free virtual reality game based on gaze interaction with iPhone. Contribution: development (50%), scene art (50%)."
-  image: XR2_iphoneX.png
-  video: https://youtu.be/WtkFE1TVr0I
-
-# --- Rendering Techniques ---
-- title: "Real-Time Rendering Techniques"
-  description: "A collection of real-time rendering experiments, including a volumetric cloud renderer and flowing-water terrain."
-  image: RTR0.png
-  code: https://github.com/ShuchangXu/VolumeCloud
