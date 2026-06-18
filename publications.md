@@ -22,9 +22,16 @@ A full list of my publications. <b>Bold</b> name marks my contributions. See als
 {% endfor %}
 {% endfor %}
 
-## 2024 & Earlier
+## 2020–2024
 {:.year}
-{% assign older = site.publications | where_exp:"p","p.year <= 2024" | sort: "year" | reverse %}
+{% assign mid = site.publications | where_exp:"p","p.year >= 2020 and p.year <= 2024" | sort: "year" | reverse %}
+{% for pub in mid %}
+  {% include publication.html pub=pub %}
+{% endfor %}
+
+## Before 2020
+{:.year}
+{% assign older = site.publications | where_exp:"p","p.year < 2020" | sort: "year" | reverse %}
 {% for pub in older %}
   {% include publication.html pub=pub %}
 {% endfor %}
