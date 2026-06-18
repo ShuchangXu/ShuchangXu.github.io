@@ -7,6 +7,7 @@
 {% assign subtitle = pub.title | split: ":" | last | strip %}
 <div class="project">
   <span class="title">{{ shortname }}</span>
+  {% if pub.venue %}<span class="card-venue">({{ pub.venue }}{% unless pub.no_year %} {{ pub.year }}{% endunless %})</span>{% endif %}
   {% if pub.image %}
     {% if rlink %}<a href="{{ rlink }}" class="preview-image" style="background-image: url('{{ pub.image | relative_url }}')"></a>
     {% else %}<span class="preview-image" style="background-image: url('{{ pub.image | relative_url }}')"></span>{% endif %}
@@ -14,7 +15,7 @@
     {% if rlink %}<a href="{{ rlink }}" class="preview-image preview-blank"></a>
     {% else %}<span class="preview-image preview-blank"></span>{% endif %}
   {% endif %}
-  <p>{% if subtitle != shortname %}{{ subtitle }} {% endif %}{% if pub.venue %}<span class="card-venue">({{ pub.venue }}{% unless pub.no_year %} {{ pub.year }}{% endunless %})</span>{% endif %}</p>
+  <p>{% if subtitle != shortname %}{{ subtitle }}{% endif %}</p>
   <div class="spacer"></div>
   <div class="links">
     {% if pub.pdf %}
