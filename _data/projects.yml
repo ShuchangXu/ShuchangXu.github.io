@@ -1,39 +1,36 @@
-# Indie games and creative-tech projects, ordered by theme.
+# Indie games, ordered for the Interests page.
 # image paths resolve to /images/projects/<image>
 
-# --- Educational Games ---
 - title: "WayHome"
-  description: "An interactive story to promote gender equity. Available on the App Store and Android."
+  description: "An interactive story that invites players to reflect on gender equity. Available on the App Store and Android."
   image: EDU1_Rainbow.png
   url: https://apps.apple.com/app/id6446995626
   article: https://mp.weixin.qq.com/s/YRoKDeevJW6qhi3KQGKc3A
   highlight: 1
 
-- title: "Go Flip-Flopping"
-  description: "Learn flip-flop timing in sequential circuits through play. An educational game I designed and built."
-  image: EDU2_EE.png
-  code: https://github.com/ShuchangXu/Go-Flip-fLopping
-
-- title: "Fate Escape"
-  description: "A buried story about HIV. Contribution: plot (50%), development (100%)."
-  image: EDU3_AIDS.png
-  code: https://github.com/ShuchangXu/fateEscape
-
-# --- Games Reflecting Society ---
 - title: "Here With Her"
-  description: "A puzzle game about women in history. Contribution: development (80%), interaction design (40%)."
+  description: "A narrative puzzle game that revisits the lives of remarkable women in history."
   image: FUN1_Her.png
   video: https://youtu.be/Sq1LErRnsE0
   highlight: 2
 
 - title: "Mr.REAL"
-  description: "Restore the truth behind internet celebrities. Contribution: development (50%), game design (20%)."
+  description: "A game that challenges players to uncover the truth behind internet celebrities."
   image: FUN2_MrREAL.png
   video: https://youtu.be/d06zUiQLdrg
 
-# --- Games Beyond the 2D Screen ---
+- title: "Fate Escape"
+  description: "An escape-room game that surfaces the hidden stories of people living with HIV."
+  image: EDU3_AIDS.png
+  code: https://github.com/ShuchangXu/fateEscape
+
+- title: "Go Flip-Flopping"
+  description: "An educational game that teaches flip-flop timing in sequential circuits through play."
+  image: EDU2_EE.png
+  code: https://github.com/ShuchangXu/Go-Flip-fLopping
+
 - title: "Trial of Zeal"
-  description: "A multiplayer mixed-reality game on HoloLens. Contribution: interaction design (50%), development (80%)."
+  description: "A multiplayer mixed-reality adventure built for Microsoft HoloLens."
   image: XR1_hololens.png
   video: https://www.youtube.com/watch?v=4gedNJmVAP4
   highlight: 3
