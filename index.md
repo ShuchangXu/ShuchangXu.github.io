@@ -4,17 +4,17 @@ title: "Home"
 class: home
 ---
 
-# AI-Assisted Human Cognition
+# Hi, I'm Shuchang Xu
 
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a Ph.D. candidate in [Computer Science](https://cse.hkust.edu.hk/) at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/) at [VisLab](http://vis.cse.ust.hk/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), working with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie-maes/) in the Fluid Interfaces Group.
+I'm a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), working with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie-maes/) in the Fluid Interfaces Group. 
+Before my PhD, I earned my degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/): an M.S. in [Computer Science](https://www.cs.tsinghua.edu.cn/csen/) (advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn)), a B.E. in [Electrical Engineering](https://www.eea.tsinghua.edu.cn/en/).
 
-My research builds **AI-powered assistive systems that augment human perception and cognition**, with a focus on enhancing accessibility for blind and aging populations.
-
-Before my PhD, I earned my degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/): an M.S. in [Computer Science](https://www.cs.tsinghua.edu.cn/csen/) (advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn)), a B.E. in [Electrical Engineering](https://www.eea.tsinghua.edu.cn/en/), and a B.A. in [Digital Media Art](https://www.enad.tsinghua.edu.cn/). I also spent two years as a software product manager at [Xiaomi](https://www.mi.com/global/about/).
+My research focuses on **AI-powered assistive systems for enhancing human cognition**.  I explore how emerging technologies can support people’s cognitive needs in critical contexts, including visual media accessibility for blind users and memory support for older adults. My work has been published at CHI, UIST, and UbiComp, and has received Best Paper Honorable Mention Awards at CHI and UIST.
 </div>
+
 
 <div class="me" markdown="1">
 <img src="{{ '/assets/img/me.png' | relative_url }}" alt="Shuchang Xu">
@@ -28,7 +28,7 @@ Before my PhD, I earned my degrees from [Tsinghua University](https://www.tsingh
 
 ## Research Overview
 
-My research centers on developing AI-powered assistive systems that augment **human perception and cognition** for blind and aging populations, across three core areas:
+My research focuses on developing AI-powered assistive systems that augment **human cognition** for blind and aging populations, across three core areas:
 
 **1. Personalized Memory Agents for Reminiscence.** I develop personal memory agents that help users relive meaningful memories — through independent reminiscence with proactive chatbots ([UIST 2024](https://dl.acm.org/doi/10.1145/3654777.3676336)), collaborative reminiscence with therapist-in-the-loop support, and everyday reminiscence integrated into daily routines.
 
@@ -57,7 +57,7 @@ My research centers on developing AI-powered assistive systems that augment **hu
   Show All Publications
 </a>
 
-## Featured <a href="{{ "/projects/" | relative_url }}">Game Projects</a>
+## Featured <a href="{{ "/daily-interest/" | relative_url }}">Game Projects</a>
 
 Beyond research, I design indie games that engage players with real-world societal issues.
 
@@ -70,7 +70,7 @@ Beyond research, I design indie games that engage players with real-world societ
   {% endfor %}
 </div>
 
-<a href="{{ "/projects/" | relative_url }}" class="button">
+<a href="{{ "/daily-interest/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
   Show More Projects
 </a>

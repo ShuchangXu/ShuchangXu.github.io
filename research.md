@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /projects/
-title: Projects
+permalink: /research/
+title: Research
 class: projects
 ---
 
 {:.hidden}
-# Projects
+# Research
 
 {:.lead}
-My research explores how AI technologies can augment human cognition across three core domains: enhanced perception, enhanced memory, and enhanced behavior.
+My research explores how AI technologies can augment human cognition across three core areas: (1) enhanced perception, (2) enhanced memory, and (3) enhanced behavior.
 
 ## Enhanced Perception
 
@@ -35,15 +35,4 @@ My research explores how AI technologies can augment human cognition across thre
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Behavior" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
-</div>
-
-## Indie Game Projects
-
-{:.lead}
-Beyond my research, I create indie games that raise awareness of real-world social issues. Most of the code lives on [GitHub](https://github.com/{{ site.github_username }}).
-
-<div class="grid">
-  {% for project in site.data.projects %}
-    {% include project.html project=project %}
-  {% endfor %}
 </div>
