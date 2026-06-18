@@ -11,18 +11,14 @@
     margin-bottom: 0.3em;
   }
 
-  .research-list {
-    margin-top: 0.3em;
-    margin-bottom: 1.2em;
+  .preview-image.preview-blank {
+    background-color: $grey-color-lightest;
+    background-image: none;
+  }
 
-    li {
-      margin-bottom: 0.4em;
-    }
-
-    .muted {
-      color: $grey-color;
-      font-size: 0.9em;
-    }
+  .card-venue {
+    color: $grey-color;
+    white-space: nowrap;
   }
 
   .grid {

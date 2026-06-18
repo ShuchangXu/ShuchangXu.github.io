@@ -1,0 +1,35 @@
+{% assign pub = include.pub %}
+{% assign rlink = pub.link %}
+{% unless rlink %}{% assign rlink = pub.pdf %}{% endunless %}
+{% unless rlink %}{% if pub.doi %}{% assign rlink = "https://doi.org/" | append: pub.doi %}{% endif %}{% endunless %}
+{% unless rlink %}{% if pub.arxiv %}{% assign rlink = "https://arxiv.org/abs/" | append: pub.arxiv %}{% endif %}{% endunless %}
+{% assign shortname = pub.title | split: ":" | first | strip %}
+{% assign subtitle = pub.title | split: ":" | last | strip %}
+<div class="project">
+  <span class="title">{{ shortname }}</span>
+  {% if pub.image %}
+    {% if rlink %}<a href="{{ rlink }}" class="preview-image" style="background-image: url('{{ pub.image | relative_url }}')"></a>
+    {% else %}<span class="preview-image" style="background-image: url('{{ pub.image | relative_url }}')"></span>{% endif %}
+  {% else %}
+    {% if rlink %}<a href="{{ rlink }}" class="preview-image preview-blank"></a>
+    {% else %}<span class="preview-image preview-blank"></span>{% endif %}
+  {% endif %}
+  <p>{% if subtitle != shortname %}{{ subtitle }} {% endif %}{% if pub.venue %}<span class="card-venue">({{ pub.venue }}{% unless pub.no_year %} {{ pub.year }}{% endunless %})</span>{% endif %}</p>
+  <div class="spacer"></div>
+  <div class="links">
+    {% if pub.pdf %}
+      <a href="{{ pub.pdf }}"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper</a>
+    {% elsif pub.arxiv %}
+      <a href="https://arxiv.org/pdf/{{ pub.arxiv | cgi_escape }}.pdf"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper</a>
+    {% endif %}
+    {% if pub.link %}
+      <a href="{{ pub.link }}"><i class="fas fa-link" aria-hidden="true"></i> Project</a>
+    {% endif %}
+    {% if pub.video %}
+      <a href="{{ pub.video }}"><i class="fas fa-film" aria-hidden="true"></i> Video</a>
+    {% endif %}
+    {% if pub.doi %}
+      <a href="https://doi.org/{{ pub.doi }}"><i class="fas fa-book" aria-hidden="true"></i> DOI</a>
+    {% endif %}
+  </div>
+</div>

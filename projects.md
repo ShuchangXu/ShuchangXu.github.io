@@ -14,28 +14,28 @@ My research explores how AI technologies can enhance human cognition, particular
 ## Enhanced Perception
 
 ### Multi-Modal AI Systems for Video Accessibility
-<ul class="research-list">
+<div class="grid">
 {% assign items = site.publications | where: "subgroup", "video" | sort: "order" %}
-{% for pub in items %}{% include research_item.html pub=pub %}{% endfor %}
-</ul>
+{% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
+</div>
 
 ### Wearable Interfaces for Accessible Navigation
-<ul class="research-list">
+<div class="grid">
 {% assign items = site.publications | where: "subgroup", "navigation" | sort: "order" %}
-{% for pub in items %}{% include research_item.html pub=pub %}{% endfor %}
-</ul>
+{% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
+</div>
 
 ## Enhanced Memory and Reasoning
-<ul class="research-list">
+<div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Memory and Reasoning" | sort: "order" %}
-{% for pub in items %}{% include research_item.html pub=pub %}{% endfor %}
-</ul>
+{% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
+</div>
 
 ## Enhanced Behavior
-<ul class="research-list">
+<div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Behavior" | sort: "order" %}
-{% for pub in items %}{% include research_item.html pub=pub %}{% endfor %}
-</ul>
+{% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
+</div>
 
 ## Indie Game Projects
 
