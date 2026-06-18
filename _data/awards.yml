@@ -1,0 +1,21 @@
+- name: HKUST Global Research Award
+  years: 2026
+- name: Best Paper Honorable Mention Award, UIST 2025
+  years: 2025
+  description: "For \"NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification\"."
+- name: Best Paper Honorable Mention Award, CHI 2025
+  years: 2025
+  description: "For \"DanmuA11y: Making Time-Synced On-Screen Video Comments (Danmu) Accessible to Blind and Low Vision Users\"."
+- name: Hong Kong PhD Fellowship Scheme (HKPFS)
+  years: 2024
+- name: Outstanding Graduates in Computer Science and Technology
+  years: 2021
+  description: "Tsinghua University."
+- name: National Scholarship for Postgraduates
+  years: 2020
+- name: National Scholarship for Postgraduates
+  years: 2019
+- name: Microsoft Design Contest for Mixed Reality (2nd place)
+  years: 2017
+- name: National Scholarship for Undergraduates
+  years: 2017

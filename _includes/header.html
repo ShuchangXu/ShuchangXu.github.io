@@ -1,0 +1,16 @@
+{% assign current = page.url | downcase | split: '/' %}
+<header class="page-header">
+  <nav class="container">
+    <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
+
+    <a href="{{ '/publications/' | relative_url }}" {% if current[1] == 'publications' %}aria-current="page"{% endif %}>Publications</a>
+    <a href="{{ '/projects/' | relative_url }}" {% if current[1] == 'projects' %}aria-current="page"{% endif %}>Projects</a>
+    <a href="{{ '/cv/' | relative_url }}" {% if current[1] == 'cv' %}aria-current="page"{% endif %}>CV</a>
+
+    <span class="external">
+      {% if site.google_scholar %}<a href="{{ site.google_scholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>{% endif %}
+      <a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
+    </span>
+  </nav>
+</header>
