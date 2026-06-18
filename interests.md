@@ -9,7 +9,7 @@ class: projects
 # Interests
 
 {:.lead}
-Beyond my research, I create indie games that raise awareness of real-world social issues. Most of the code lives on [GitHub](https://github.com/{{ site.github_username }}).
+Beyond my research, I enjoy creating indie games that raise awareness of real-world social issues, such as gender equity and online credibility.
 
 <div class="grid">
   {% for project in site.data.projects %}
