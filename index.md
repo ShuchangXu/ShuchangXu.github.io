@@ -4,7 +4,7 @@ title: "Home"
 class: home
 ---
 
-# AI-Powered Assistive Systems for Enhanced Human Cognition
+# AI-Assisted Human Cognition
 
 <div class="columns" markdown="1">
 
