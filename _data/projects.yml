@@ -1,0 +1,50 @@
+# Indie games and creative-tech projects, ordered by theme.
+# image paths resolve to /images/projects/<image>
+
+# --- Educational Games ---
+- title: "WayHome"
+  description: "An interactive story to promote gender equity. Available on the App Store and Android."
+  image: EDU1_Rainbow.png
+  url: https://apps.apple.com/app/id6446995626
+  article: https://mp.weixin.qq.com/s/YRoKDeevJW6qhi3KQGKc3A
+  highlight: 1
+
+- title: "Go Flip-Flopping"
+  description: "Learn flip-flop timing in sequential circuits through play. An educational game I designed and built."
+  image: EDU2_EE.png
+  code: https://github.com/ShuchangXu/Go-Flip-fLopping
+
+- title: "Fate Escape"
+  description: "A buried story about HIV. Contribution: plot (50%), development (100%)."
+  image: EDU3_AIDS.png
+  code: https://github.com/ShuchangXu/fateEscape
+
+# --- Games Reflecting Society ---
+- title: "Here With Her"
+  description: "A puzzle game about women in history. Contribution: development (80%), interaction design (40%)."
+  image: FUN1_Her.png
+  video: https://youtu.be/Sq1LErRnsE0
+  highlight: 2
+
+- title: "Mr.REAL"
+  description: "Restore the truth behind internet celebrities. Contribution: development (50%), game design (20%)."
+  image: FUN2_MrREAL.png
+  video: https://youtu.be/d06zUiQLdrg
+
+# --- Games Beyond the 2D Screen ---
+- title: "Trial of Zeal"
+  description: "A multiplayer mixed-reality game on HoloLens. Contribution: interaction design (50%), development (80%)."
+  image: XR1_hololens.png
+  video: https://www.youtube.com/watch?v=4gedNJmVAP4
+  highlight: 3
+
+- title: "Glasses-free VR"
+  description: "A glasses-free virtual reality game based on gaze interaction with iPhone. Contribution: development (50%), scene art (50%)."
+  image: XR2_iphoneX.png
+  video: https://youtu.be/WtkFE1TVr0I
+
+# --- Rendering Techniques ---
+- title: "Real-Time Rendering Techniques"
+  description: "A collection of real-time rendering experiments, including a volumetric cloud renderer and flowing-water terrain."
+  image: RTR0.png
+  code: https://github.com/ShuchangXu/VolumeCloud

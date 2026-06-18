@@ -1,0 +1,112 @@
+---
+layout: cv
+permalink: /cv/
+title: CV
+---
+
+<section class="container">
+
+<h1><a href="{{ absolute_url }}/">Shuchang Xu</a></h1>
+
+<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Latest version at <a href="{{ '/cv' | absolute_url }}">shuchangxu.github.io/cv</a>.</small>
+
+<div class="header-columns">
+  <div>
+    <p>
+      Ph.D. candidate at HKUST and visiting student at the MIT Media Lab.<br/>
+      I build AI-powered assistive systems for blind and aging populations.
+    </p>
+  </div>
+  <div>
+    <ul class="right-align">
+      <li><i class="fa-solid fa-globe muted"></i> <a href="{{ absolute_url }}/">shuchangxu.github.io</a></li>
+      <li><i class="fa-solid fa-envelope muted"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><i class="ai ai-google-scholar muted"></i> <a href="{{ site.google_scholar }}">Google Scholar</a></li>
+      <li><i class="fa-brands fa-github muted"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
+      <li><i class="fa-solid fa-file-pdf muted"></i> <a href="{{ '/assets/files/ShuchangXu-CV.pdf' | relative_url }}">PDF version</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<h2>Research Area</h2>
+
+<p>
+My research builds <strong>AI-powered assistive systems</strong> that augment human perception and cognition, with a focus on enhancing accessibility for blind and aging populations. I combine methods from <strong>human-computer interaction</strong>, <strong>multi-modal machine learning</strong>, and <strong>accessible computing</strong>, spanning personalized memory agents for reminiscence, video accessibility, and multi-sensory interfaces for navigation.
+</p>
+
+
+<h2>Education</h2>
+
+{% for ed in site.data.education %}
+  <div class="date-container">
+    <span class="date">{{ ed.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ ed.degree }}, {{ ed.university }}</strong>
+    <span class="right">{{ ed.location }}</span>
+  </div>
+  <p>
+    {% for des in ed.description %}
+      <span>{{ des | markdownify | remove: '<p>' | remove: '</p>' }}</span>{% unless forloop.last %}<br/>{% endunless %}
+    {% endfor %}
+  </p>
+{% endfor %}
+
+
+<h2>Experience</h2>
+
+{% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
+{% for pos in filtered_positions %}
+  <div class="date-container">
+    <span class="date">{{ pos.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ pos.company }}</strong>
+    <span class="right">{{ pos.location }}</span>
+  </div>
+  <div>
+    {{ pos.title }}{% if pos.short_desc %}, {{ pos.short_desc | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
+  </div>
+{% endfor %}
+
+
+<h2>Selected Awards</h2>
+
+{% for award in site.data.awards %}
+  <div class="date-container">
+    <span class="date">{{ award.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ award.name }}</strong>
+    <span class="right">{{ award.sponsor }}</span>
+  </div>
+  {% if award.description %}
+    <p class="muted">{{ award.description }}</p>
+  {% endif %}
+{% endfor %}
+
+
+<h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
+
+{% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
+
+{% assign types = "Conference|Journal" | split: "|" %}
+{% for type in types %}
+  {% assign count = 0 %}
+  {% for pub in sorted_pubs %}{% if pub.type[0] == type %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
+  {% if count > 0 %}
+  <h3 class="pub-type">{{ type }}</h3>
+  {% assign counter = count %}
+  {% for pub in sorted_pubs %}
+    {% if pub.type[0] == type %}
+      <div class="pub">
+        <div class="ref-container">{{ type | slice: 0 }}{{ counter }}</div>
+        <strong class="fill">{% if pub.pdf %}<a href="{{ pub.pdf }}">{{ pub.title }}</a>{% elsif pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.doi %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong>
+        <div>
+          {% for author in pub.authors %}{% include person person=author %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
+          {% if pub.venue %}<i>{{ pub.venue }}</i>, {% endif %}{{ pub.year }}.
+          {% for award in pub.awards %}<strong class="award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ award }}</strong>{% endfor %}
+        </div>
+      </div>
+      {% assign counter = counter | minus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+
+</section>

@@ -1,59 +1,37 @@
-url: "shuchangxu.github.io"
-# baseurl: /Hanchao-Zhang.github.io
-# Basic Information 
+# Site settings
 title: Shuchang Xu
-# subtitle:
-position: Ph.D. Candidate
-
-affiliation: Hong Kong University of Science and Technology
-subaffiliation: Computer Science and Engineering
-affiliation_link: https://hkust.edu.hk
-subaffiliation_link: https://cse.hkust.edu.hk
 email: xsc14thu@gmail.com
-address: Clear Water Bay, Hong Kong
-address_link: https://goo.gl/maps/gXLKzoRZXst1JaGV9
+description: >
+   Ph.D. candidate at HKUST and visiting student at the MIT Media Lab. I build AI-powered assistive systems that augment human perception and cognition for blind and aging populations.
+baseurl: ""
+url: "https://shuchangxu.github.io"
+github_username: ShuchangXu
 
-
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: shuchang xu, HKUST, tsinghua, HCI
-description: shuchang xu's personal homepage
-canonical: https://shuchangxu.github.io/
-
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
+# External links
 google_scholar: https://scholar.google.com/citations?hl=en&user=aztYItYAAAAJ
-cv_link: assets/files/ShuchangXu-CV.pdf
-github_link: https://github.com/ShuchangXu
-# linkedin: https://www.linkedin.com/in/hanchao-ted-zhang-670105b7/?locale=en_US
-# twitter: https://twitter.com/tedddddy_zhang
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/me.png
-# logo: ./assets/img/logo.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# SEO
+lang: en-US
+author: Shuchang Xu
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: false
+sass:
+  style: compressed
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-# google_analytics: UA-111540567-4
+collections:
+  publications:
+    output: false
 
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# The following files will be removed from the generated website.
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - README.md
+  - README_de.md
   - README_zh_Hans.md
   - README_zh_Hant.md
-  - README_de.md
-  - LICENSE
-  - minimal-light.gemspec
+  - vendor
