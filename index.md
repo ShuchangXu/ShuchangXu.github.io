@@ -57,7 +57,7 @@ My research focuses on developing AI-powered assistive systems that augment **hu
   Show All Publications
 </a>
 
-## Featured <a href="{{ "/daily-interest/" | relative_url }}">Game Projects</a>
+## Featured <a href="{{ "/interests/" | relative_url }}">Game Projects</a>
 
 Beyond research, I design indie games that engage players with real-world societal issues.
 
@@ -70,7 +70,7 @@ Beyond research, I design indie games that engage players with real-world societ
   {% endfor %}
 </div>
 
-<a href="{{ "/daily-interest/" | relative_url }}" class="button">
+<a href="{{ "/interests/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
   Show More Projects
 </a>
