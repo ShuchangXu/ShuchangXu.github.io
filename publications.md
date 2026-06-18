@@ -9,14 +9,22 @@ class: pubs
 # Publications
 
 {:.lead}
-My research builds AI-powered assistive systems that augment human perception and cognition. <b>Bold</b> name marks my contributions. See also my [Google Scholar]({{ site.google_scholar }}).
+A full list of my publications. <b>Bold</b> name marks my contributions. See also my [Google Scholar]({{ site.google_scholar }}).
 
-{% assign themes = "Enhanced Perception|Enhanced Memory and Reasoning|Enhanced Behavior|Sensing and Machine Learning" | split: "|" %}
-{% for theme in themes %}
-## {{ theme }}
-{:.theme}
-{% assign items = site.publications | where: "theme", theme | sort: "order" %}
+{% assign recent_years = "2026,2025,2024" | split: "," %}
+{% for ys in recent_years %}
+{% assign y = ys | plus: 0 %}
+## {{ y }}
+{:.year}
+{% assign items = site.publications | where_exp:"p","p.year == y" | sort: "order" %}
 {% for pub in items %}
   {% include publication.html pub=pub %}
 {% endfor %}
+{% endfor %}
+
+## 2021 & Earlier
+{:.year}
+{% assign older = site.publications | where_exp:"p","p.year <= 2021" | sort: "year" | reverse %}
+{% for pub in older %}
+  {% include publication.html pub=pub %}
 {% endfor %}

@@ -7,7 +7,7 @@
   </div>
   {% if pub.venue %}
     <div class="venue">
-      {% if pub.venue_url %}<a href="{{ pub.venue_url }}">{% endif %}{{ pub.venue }}{% if pub.venue_url %}</a>{% endif %} {{ pub.year }}
+      {% if pub.venue_url %}<a href="{{ pub.venue_url }}">{% endif %}{{ pub.venue }}{% if pub.venue_url %}</a>{% endif %}{% unless pub.no_year %} {{ pub.year }}{% endunless %}
     </div>
   {% endif %}
 
