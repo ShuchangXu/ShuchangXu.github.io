@@ -2,35 +2,37 @@
 # image paths resolve to /images/projects/<image>
 
 - title: "WayHome"
-  description: "An interactive story that invites players to reflect on gender equity. Available on the App Store and Android."
+  description: "Reflect on gender equity through an immersive narrative."
   image: EDU1_Rainbow.png
   url: https://apps.apple.com/app/id6446995626
+  url_label: App Store
   article: https://mp.weixin.qq.com/s/YRoKDeevJW6qhi3KQGKc3A
+  article_label: Learn More
   highlight: 1
 
 - title: "Here With Her"
-  description: "A narrative puzzle game that revisits the lives of remarkable women in history."
+  description: "Revisit the lives of women in history through an interactive puzzle."
   image: FUN1_Her.png
   video: https://youtu.be/Sq1LErRnsE0
   highlight: 2
 
-- title: "Mr.REAL"
-  description: "A game that challenges players to uncover the truth behind internet celebrities."
+- title: "Mr. REAL"
+  description: "Reflect on the trustworthiness of internet celebrities through a detective game."
   image: FUN2_MrREAL.png
   video: https://youtu.be/d06zUiQLdrg
 
 - title: "Fate Escape"
-  description: "An escape-room game that surfaces the hidden stories of people living with HIV."
+  description: "Step into the stories of people living with HIV through an escape room experience."
   image: EDU3_AIDS.png
   code: https://github.com/ShuchangXu/fateEscape
 
 - title: "Go Flip-Flopping"
-  description: "An educational game that teaches flip-flop timing in sequential circuits through play."
+  description: "Learn key concepts in digital circuits through a side-scrolling game."
   image: EDU2_EE.png
   code: https://github.com/ShuchangXu/Go-Flip-fLopping
 
 - title: "Trial of Zeal"
-  description: "A multiplayer mixed-reality adventure built for Microsoft HoloLens."
+  description: "A multiplayer battle game built for a mixed-reality experience."
   image: XR1_hololens.png
   video: https://www.youtube.com/watch?v=4gedNJmVAP4
   highlight: 3
