@@ -9,14 +9,14 @@ class: pubs
 # Publications
 
 {:.lead}
-A full list of my publications. <b>Bold</b> name marks my contributions. See also my [Google Scholar]({{ site.google_scholar }}).
+My research builds AI-powered assistive systems that augment human perception and cognition. <b>Bold</b> name marks my contributions. See also my [Google Scholar]({{ site.google_scholar }}).
 
-{% assign pubyears = site.publications | group_by:"year" %}
-{% assign sorted_pubyears = pubyears | sort: "name" | reverse %}
-{% for year in sorted_pubyears %}
-## {{ year.name }}
-{:.year}
-{% for pub in year.items %}
+{% assign themes = "Enhanced Perception|Enhanced Memory and Reasoning|Enhanced Behavior|Sensing and Machine Learning" | split: "|" %}
+{% for theme in themes %}
+## {{ theme }}
+{:.theme}
+{% assign items = site.publications | where: "theme", theme | sort: "order" %}
+{% for pub in items %}
   {% include publication.html pub=pub %}
 {% endfor %}
 {% endfor %}
