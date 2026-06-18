@@ -4,7 +4,7 @@ title: "Home"
 class: home
 ---
 
-# Hi, I'm Shuchang Xu
+# AI-Powered Assistive Systems for Enhanced Human Cognition
 
 <div class="columns" markdown="1">
 
