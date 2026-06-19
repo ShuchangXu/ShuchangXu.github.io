@@ -15,7 +15,7 @@ My research focuses on developing AI-powered assistive systems that **enhance hu
 
 My research improves visual access for blind users across digital media and the physical world. -->
 
-## Perception Support - Video Accessibility
+<!-- ## Perception Support - Video Accessibility
 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "video" | sort: "order" %}
@@ -27,16 +27,26 @@ My research improves visual access for blind users across digital media and the 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "navigation" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
+</div> -->
+
+# 1. Perception Support
+
+<div class="grid">
+{% assign items = site.publications | where: "subgroup", "video" | sort: "order" %}
+{% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
+
+{% assign items = site.publications | where: "subgroup", "navigation" | sort: "order" %}
+{% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Memory and Reasoning Support
+# 2. Memory and Reasoning
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Memory and Reasoning" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Behavior and Learning Support
+# 3. Behavior and Learning
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Behavior" | sort: "order" %}

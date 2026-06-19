@@ -57,7 +57,7 @@ My research focuses on AI-powered assistive systems that **enhance human cogniti
 
 <a href="{{ "/research/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  See More Research
+  More About My Research
 </a>
 
 ## <a href="{{ "/publications/" | relative_url }}">Featured Publications</a>
@@ -71,7 +71,7 @@ My research focuses on AI-powered assistive systems that **enhance human cogniti
 
 <a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  See All Publications
+  All Publications
 </a>
 
 ## <a href="{{ "/interests/" | relative_url }}">Beyond Research</a>
@@ -89,7 +89,7 @@ Beyond research, I love to **create indie games that reflect on real-world socia
 
 <a href="{{ "/interests/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  See More Projects
+  More Projects
 </a>
 
 ## News

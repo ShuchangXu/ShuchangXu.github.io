@@ -3,7 +3,13 @@
 {% unless figlink %}{% assign figlink = pub.pdf %}{% endunless %}
 {% unless figlink %}{% if pub.arxiv %}{% assign figlink = "https://arxiv.org/abs/" | append: pub.arxiv %}{% endif %}{% endunless %}
 {% unless figlink %}{% if pub.doi %}{% assign figlink = "https://doi.org/" | append: pub.doi %}{% endif %}{% endunless %}
-<div class="publication">
+<div class="publication{% if pub.image %} has-figure{% endif %}">
+  {% if pub.image %}
+    <div class="media-wrapper">
+      {% if figlink %}<a href="{{ figlink }}" class="publication-image" style="background-image: url('{{ pub.image | relative_url }}')" aria-label="Teaser figure for {{ pub.title }}"></a>
+      {% else %}<span class="publication-image" style="background-image: url('{{ pub.image | relative_url }}')"></span>{% endif %}
+    </div>
+  {% endif %}
   <div class="pub-body">
     <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award contains "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
     <div class="authors">
