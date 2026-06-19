@@ -29,7 +29,7 @@ My research improves visual access for blind users across digital media and the 
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div> -->
 
-# 1. Perception Support
+## 1. Perception Support
 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "video" | sort: "order" %}
@@ -39,14 +39,14 @@ My research improves visual access for blind users across digital media and the 
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-# 2. Memory and Reasoning
+## 2. Memory and Reasoning
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Memory and Reasoning" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-# 3. Behavior and Learning
+## 3. Behavior and Learning
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Behavior" | sort: "order" %}
