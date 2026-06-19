@@ -9,20 +9,20 @@ class: projects
 # Research
 
 {:.lead}
-My research focuses on developing AI-powered assistive systems to **enhance human cognition across three core areas: perception, memory, and behavior**.
+My research focuses on developing AI-powered assistive systems that **enhance human cognition across three core areas: perception, memory, and behavior**.
 
 <!-- ## Enhanced Perception
 
 My research improves visual access for blind users across digital media and the physical world. -->
 
-## Perception Support - Accessing Digital Media
+## Perception Support - Video Accessibility
 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "video" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Perception Support - Navigating Physical World
+## Perception Support - Multi-Sensory Navigation
 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "navigation" | sort: "order" %}
@@ -36,7 +36,7 @@ My research improves visual access for blind users across digital media and the 
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Behavior Support
+## Behavior and Learning Support
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Behavior" | sort: "order" %}

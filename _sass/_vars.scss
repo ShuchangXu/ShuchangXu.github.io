@@ -1,7 +1,8 @@
 @use "sass:color";
 
 // Our variables
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$base-font-family: "Fira Sans", #{$system-font-family};
 $base-font-size:   100%;  // 16px by default
 $small-font-size:  0.9rem;
 $base-line-height: 1.64;
@@ -9,15 +10,23 @@ $base-line-height: 1.64;
 $spacing-unit:     32px;
 $content-width:    800px;
 
+// Harmonized blue + cyan palette
+$blue-deep:        #0b5cb0;
+$blue:             #1f86d4;
+$cyan:             #1093d0;
+$cyan-light:       #76b5d9;
+$divider-color:    #b0d8f2;
+
 $text-color:        #414141;
 $dark-text-color:   #333;
 $background-color:  #fff;
-$brand-color:       #b00;
+$brand-color:       #1366c4;   // primary blue
+$card-border:       #dae9ef;  // soft light-blue card outline
 $yellow-color:      #ffc000;
 $green-color:       #006400;
-$link-color:        #3477ad;
+$link-color:        #1565c0;
 $header-background: #ececec;
-$footer-background: #234;
+$footer-background: #102a43;    // deep navy, harmonizes with blue
 $footer-text:       color.adjust(#fff, $lightness: -10%);
 
 $grey-color:       #6b6b6b;
@@ -31,5 +40,56 @@ $on-laptop:        800px;
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
+  }
+}
+
+// Blue→cyan gradient fill for emphasized text.
+@mixin gradient-text {
+  font-weight: 550;
+  background: linear-gradient(to left, $blue-deep, $cyan);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+// Animated spinning gradient border on card hover (needs @property
+// --border-angle and @keyframes bg-spin defined globally in _base.scss).
+@mixin card-hover-border {
+  --border-angle: 0turn;
+  --main-bg: conic-gradient(
+    from var(--border-angle),
+    #ffffff,
+    #ffffff 115%,
+    #{$blue-deep} 60%,
+    #{$blue} 95%
+  );
+  --gradient-border: conic-gradient(
+    from var(--border-angle),
+    transparent 25%,
+    #{$cyan-light},
+    #{$cyan},
+    #{$blue-deep} 99%,
+    transparent
+  );
+  background: var(--main-bg) padding-box, var(--gradient-border) border-box,
+    var(--main-bg) border-box;
+  background-position: center center;
+  border: solid 1px rgba(0, 0, 0, 0);
+  animation: bg-spin 2.5s linear infinite;
+}
+
+// Section header: text followed by a thin blue divider line.
+@mixin section-divider {
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  &::after {
+    content: "";
+    flex: 1;
+    margin-left: 0.6em;
+    height: 2px;
+    background-color: $divider-color;
   }
 }

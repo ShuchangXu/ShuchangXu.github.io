@@ -9,8 +9,9 @@ class: interests
 # Interests
 
 {:.lead}
-Beyond my research, I create indie games that engage players with real-world social issues.
+Beyond research, I love to create indie games that **reflect on real-world social issues**.
 
+## My Games
 <div class="grid">
   {% for project in site.data.projects %}
     {% include project.html project=project %}

@@ -9,10 +9,9 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), working with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie-maes/) in the Fluid Interfaces Group. 
-Before my PhD, I earned my degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/): an M.S. in [Computer Science](https://www.cs.tsinghua.edu.cn/csen/) (advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn)), a B.E. in [Electrical Engineering](https://www.eea.tsinghua.edu.cn/en/).
+I'm a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/) at the Fluid Interfaces Group. Before my Ph.D., I studied at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I earned an M.S. in [Computer Science](https://www.cs.tsinghua.edu.cn/csen/) and a B.E. in [Electrical Engineering](https://www.eea.tsinghua.edu.cn/en/). During my master's studies, I was advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
 
-My research focuses on **AI-powered assistive systems for enhancing human cognition**.  I explore how emerging technologies can support people’s cognitive needs in critical contexts, including visual media accessibility for blind users and memory support for older adults. My work has been published at CHI, UIST, and UbiComp, and has received Best Paper Honorable Mention Awards at CHI and UIST.
+My research focuses on **AI-powered assistive systems that enhance human cognition**, with an emphasis on supporting perception, memory, and behavior across diverse populations. My work has been published at CHI, UIST, and UbiComp, and has received two Best Paper Honorable Mention Awards (CHI 2025 and UIST 2025).
 </div>
 
 
@@ -26,40 +25,58 @@ My research focuses on **AI-powered assistive systems for enhancing human cognit
 
 </div>
 
-## Research Overview
+## <a href="{{ "/research/" | relative_url }}">Research Overview</a>
 
-My research focuses on developing AI-powered assistive systems that augment **human cognition** for blind and aging populations, across three core areas:
+My research focuses on AI-powered assistive systems that **enhance human cognition across three core areas:**
 
-**1. Personalized Memory Agents for Reminiscence.** I develop personal memory agents that help users relive meaningful memories — through independent reminiscence with proactive chatbots ([UIST 2024](https://dl.acm.org/doi/10.1145/3654777.3676336)), collaborative reminiscence with therapist-in-the-loop support, and everyday reminiscence integrated into daily routines.
+<div class="projects overview">
+<div class="grid">
+  <div class="project">
+    <span class="title">Perception Support</span>
+    <p>Enhancing Visual Media Accessibility</p>
+    <a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility" class="preview-image" style="background-image: url('{{ '/assets/img/13_SonicStage.png' | relative_url }}')"></a>
+    <div class="spacer"></div>
+    <div class="links"><a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
+  </div>
+  <div class="project">
+    <span class="title">Memory Support</span>
+    <p>Enabling Personalized Reminiscence</p>
+    <a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support" class="preview-image" style="background-image: url('{{ '/assets/img/14_RemiAssist.png' | relative_url }}')"></a>
+    <div class="spacer"></div>
+    <div class="links"><a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
+  </div>
+  <div class="project">
+    <span class="title">Behavior Support</span>
+    <p>Supporting Positive Behavior Change</p>
+    <a href="{{ '/research/' | relative_url }}#behavior-and-learning-support" class="preview-image" style="background-image: url('{{ '/assets/img/12_InteractiveBreak.png' | relative_url }}')"></a>
+    <div class="spacer"></div>
+    <div class="links"><a href="{{ '/research/' | relative_url }}#behavior-and-learning-support"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
+  </div>
+</div>
+</div>
 
-**2. Multi-Modal AI Systems for Video Accessibility.** I build machine-learning pipelines that enable blind and low-vision users to understand and engage with video: making online comments accessible ([CHI 2025](https://dl.acm.org/doi/10.1145/3706598.3713496)), enabling interactive exploration of 360° videos ([UIST 2025](https://arxiv.org/abs/2507.09959)), and enhancing spatial awareness in film and television ([Sonic Stage](https://shuchangxu.github.io/Sonic_Stage_Demo/)).
-
-**3. Multi-Sensory Interfaces for Outdoor Navigation.** I develop wearable systems that support navigation through multi-sensory feedback: on-body haptics ([IMWUT 2020](https://dl.acm.org/doi/abs/10.1145/3411814)), handheld vibrations ([CHI 2021](https://dl.acm.org/doi/10.1145/3411764.3445644)), and head-mounted light cues ([IMWUT 2021](https://dl.acm.org/doi/10.1145/3463524)).
+<a href="{{ "/research/" | relative_url }}" class="button">
+  <i class="fas fa-chevron-circle-right"></i>
+  See More Research
+</a>
 
 ## <a href="{{ "/publications/" | relative_url }}">Featured Publications</a>
 
-<div class="featured-publications">
+<div class="projects">
+<div class="grid">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
-  {% for pub in sorted_publications %}
-    {% if pub.highlight %}
-      <a href="{% if pub.pdf %}{{ pub.pdf }}{% elsif pub.arxiv %}https://arxiv.org/abs/{{ pub.arxiv }}{% elsif pub.doi %}https://doi.org/{{ pub.doi }}{% endif %}" class="publication">
-        <strong>{{ pub.title }}</strong>
-        <span class="authors">{% for author in pub.authors %}{% if author == "Shuchang Xu" %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
-        <i>{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}</i>.
-        {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
-      </a>
-    {% endif %}
-  {% endfor %}
+  {% for pub in sorted_publications %}{% if pub.highlight %}{% include research_card.html pub=pub %}{% endif %}{% endfor %}
+</div>
 </div>
 
 <a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  Show All Publications
+  See All Publications
 </a>
 
-## <a href="{{ "/interests/" | relative_url }}">Interests</a>
+## <a href="{{ "/interests/" | relative_url }}">Beyond Research</a>
 
-Beyond research, I create indie games that engage players with real-world social issues.
+Beyond research, I love to **create indie games that reflect on real-world social issues**.
 
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
@@ -72,7 +89,7 @@ Beyond research, I create indie games that engage players with real-world social
 
 <a href="{{ "/interests/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  Show More Interests
+  See More Projects
 </a>
 
 ## News

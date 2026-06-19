@@ -2,6 +2,21 @@
 @use "_vars" as *;
 
 /**
+ * Animated gradient border used on card hover across the site.
+ */
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+/**
  * Basic styling
  */
 html, body {
@@ -127,10 +142,14 @@ ul.no-list {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: opacity 0.2s ease;
 
   &:hover {
-      opacity: .8;
+      opacity: .85;
       text-decoration: underline;
+      text-decoration-color: $cyan;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 2px;
   }
 }
 

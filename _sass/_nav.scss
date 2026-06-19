@@ -14,6 +14,9 @@ nav {
   line-height: 36px;
   justify-content: space-between;
 
+  padding-bottom: 12px;
+  border-bottom: 1px solid $card-border;
+
   & > *:last-child {
     margin-left: auto;
   }

@@ -1,8 +1,18 @@
 <footer>
   <div class="container">
+    <div class="footer-col site-desc">
+      <div class="footer-text">
+        Shuchang Xu, Ph.D. candidate at HKUST<br/>
+        Interest: AI-powered assistive systems for enhancing human cognition<br/><br/>
+        <a href="mailto:{{ site.email }}">Email: {{ site.email }}</a> &middot; <a href="{{ site.google_scholar }}">Google Scholar</a>
+      </div>
+    </div>
     <div class="footer-col">
-      Shuchang Xu<br/>
-      Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>&nbsp;&nbsp;&nbsp;Google Scholar: <a href="{{ site.google_scholar }}">Profile</a>
+      <div class="footer-text">
+        <div>Template by <a target="_blank" rel="noopener noreferrer" href="https://github.com/domoritz/domoritz.github.io">@domoritz</a></div>
+        <div>Design adapted from <a target="_blank" rel="noopener noreferrer" href="https://shellywhen.github.io/">@Shelly</a></div><br/>
+        <abbr title="Last build on {{ site.time | date: '%Y-%m-%d' }}">Last Updated: {{ site.time | date: '%B %Y' }}</abbr>
+      </div>
     </div>
   </div>
 </footer>

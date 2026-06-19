@@ -7,8 +7,9 @@
   }
 
   h2 {
+    @include section-divider;
     font-size: 1.5em;
-    border-bottom: none;
+    margin-top: 1.8em;
   }
 
   .columns {
@@ -18,6 +19,10 @@
     .intro {
       flex: 1;
       font-size: 1.1em;
+
+      strong {
+        @include gradient-text;
+      }
     }
 
     .me {
@@ -40,6 +45,8 @@
   }
 
   .button {
+    display: inline-block;
+    margin-top: 1.2em;
     color: $brand-color;
     padding: 6px 16px;
     border-radius: 3px;
@@ -56,7 +63,7 @@
     font-size: 0.9em;
     display: flex;
     flex-direction: row;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.3em;
 
     .project {
       flex-grow: 1;
@@ -65,18 +72,16 @@
       display: flex;
       flex-direction: column;
 
-      border-radius: 3px;
+      border-radius: 4px;
       padding: 16px;
-      border: 1px solid #ddd;
-
-      transition: box-shadow 0.2s ease;
+      border: 1.5px solid $card-border;
 
       &:not(:last-child) {
         margin-right: 16px;
       }
 
       &:hover {
-        box-shadow: #aaa 2px 2px 11px;
+        @include card-hover-border;
       }
 
       .spacer {
@@ -175,8 +180,8 @@
       max-height: 14.5em;
       overflow-y: auto;
       padding: 16px;
-      border: 1px solid #ddd;
-      border-radius: 3px;
+      border: 1.5px solid $card-border;
+      border-radius: 4px;
 
       // Keep it scrollable but hide the scrollbar.
       scrollbar-width: none;
