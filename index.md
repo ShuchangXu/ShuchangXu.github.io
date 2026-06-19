@@ -4,14 +4,14 @@ title: "Home"
 class: home
 ---
 
-# Hi, I'm Shuchang Xu
+# **Hi, I'm Shuchang**
 
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/) at the Fluid Interfaces Group. Before my Ph.D., I studied at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I earned an M.S. in [Computer Science](https://www.cs.tsinghua.edu.cn/csen/) and a B.E. in [Electrical Engineering](https://www.eea.tsinghua.edu.cn/en/). During my master's studies, I was advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
+I'm a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Before my Ph.D., I completed my undergraduate and master's studies at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I was advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
 
-My research focuses on **AI-powered assistive systems that enhance human cognition**, with an emphasis on supporting perception, memory, and behavior across diverse populations. My work has been published at CHI, UIST, and UbiComp, and has received two Best Paper Honorable Mention Awards (CHI 2025 and UIST 2025).
+My research focuses on **AI-powered assistive systems that enhance human cognition**, with an emphasis on perception, memory, and behavior. My work has been published at CHI, UIST, and UbiComp, and has received Best Paper Honorable Mention Awards at CHI and UIST.
 </div>
 
 
@@ -27,27 +27,27 @@ My research focuses on **AI-powered assistive systems that enhance human cogniti
 
 ## <a href="{{ "/research/" | relative_url }}">Research Overview</a>
 
-My research focuses on AI-powered assistive systems that **enhance human cognition across three core areas:**
+My research focuses on AI-powered assistive systems that **enhance human cognition across three core areas: memory, perception, and behavior.**
 
 <div class="projects overview">
 <div class="grid">
   <div class="project">
-    <span class="title">Perception Support</span>
-    <p>Enhancing Visual Media Accessibility</p>
+    <span class="title">1. Perception Support</span>
+    <p>I create <strong>multimodal AI systems</strong> and <strong>multisensory interfaces</strong> that help blind users engage with visual media.</p>
     <a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility" class="preview-image" style="background-image: url('{{ '/assets/img/13_SonicStage.png' | relative_url }}')"></a>
     <div class="spacer"></div>
     <div class="links"><a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
   </div>
   <div class="project">
-    <span class="title">Memory Support</span>
-    <p>Enabling Personalized Reminiscence</p>
+    <span class="title">2. Memory Support</span>
+    <p>I develop <strong>personalized memory agents</strong> that help people reminisce about and share past memories.</p>
     <a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support" class="preview-image" style="background-image: url('{{ '/assets/img/14_RemiAssist.png' | relative_url }}')"></a>
     <div class="spacer"></div>
     <div class="links"><a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
   </div>
   <div class="project">
-    <span class="title">Behavior Support</span>
-    <p>Supporting Positive Behavior Change</p>
+    <span class="title">3. Behavior Support</span>
+    <p>I create <strong>personal behavior assistants</strong> that help people understand their behaviors and support positive behavior change.</p>
     <a href="{{ '/research/' | relative_url }}#behavior-and-learning-support" class="preview-image" style="background-image: url('{{ '/assets/img/12_InteractiveBreak.png' | relative_url }}')"></a>
     <div class="spacer"></div>
     <div class="links"><a href="{{ '/research/' | relative_url }}#behavior-and-learning-support"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
@@ -61,6 +61,7 @@ My research focuses on AI-powered assistive systems that **enhance human cogniti
 </a>
 
 ## <a href="{{ "/publications/" | relative_url }}">Featured Publications</a>
+Here are a few recent publications:
 
 <div class="projects">
 <div class="grid">
