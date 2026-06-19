@@ -34,21 +34,21 @@ My research focuses on AI-powered assistive systems that **enhance human cogniti
   <div class="project">
     <span class="title">1. Perception Support</span>
     <p>I create <strong>multimodal AI systems</strong> and <strong>multisensory interfaces</strong> that help blind users engage with visual media.</p>
-    <a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility" class="preview-image" style="background-image: url('{{ '/assets/img/13_SonicStage.png' | relative_url }}')"></a>
+    <a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility" class="preview-image" style="background-image: url('{{ '/assets/img/Area_1.png' | relative_url }}')"></a>
     <div class="spacer"></div>
     <div class="links"><a href="{{ '/research/' | relative_url }}#perception-support---visual-accessibility"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
   </div>
   <div class="project">
     <span class="title">2. Memory Support</span>
     <p>I develop <strong>personalized memory agents</strong> that help people reminisce about and share past memories.</p>
-    <a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support" class="preview-image" style="background-image: url('{{ '/assets/img/14_RemiAssist.png' | relative_url }}')"></a>
+    <a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support" class="preview-image" style="background-image: url('{{ '/assets/img/Area_2.png' | relative_url }}')"></a>
     <div class="spacer"></div>
     <div class="links"><a href="{{ '/research/' | relative_url }}#memory-and-reasoning-support"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
   </div>
   <div class="project">
     <span class="title">3. Behavior Support</span>
     <p>I create <strong>personal behavior assistants</strong> that help people understand their behaviors and support positive behavior change.</p>
-    <a href="{{ '/research/' | relative_url }}#behavior-and-learning-support" class="preview-image" style="background-image: url('{{ '/assets/img/12_InteractiveBreak.png' | relative_url }}')"></a>
+    <a href="{{ '/research/' | relative_url }}#behavior-and-learning-support" class="preview-image" style="background-image: url('{{ '/assets/img/Area_3.png' | relative_url }}')"></a>
     <div class="spacer"></div>
     <div class="links"><a href="{{ '/research/' | relative_url }}#behavior-and-learning-support"><i class="fas fa-arrow-right" aria-hidden="true"></i> Learn more</a></div>
   </div>
