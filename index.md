@@ -27,7 +27,7 @@ My research focuses on **AI-powered assistive systems that enhance human cogniti
 
 ## <a href="{{ "/research/" | relative_url }}">Research Overview</a>
 
-My research focuses on AI-powered assistive systems that **enhance human cognition across three core areas: memory, perception, and behavior.**
+My research focuses on AI-powered assistive systems that **enhance human cognition across three core areas: perception, memory, and behavior.**
 
 <div class="projects overview">
 <div class="grid">
