@@ -9,7 +9,7 @@ class: projects
 # Research
 
 {:.lead}
-My research develops AI-powered assistive systems that **enhance human cognition across three core areas: perception, memory, and behavior**.
+My research develops AI-powered assistive systems that enhance human cognition. Specifically, I focus on **three core areas: perception, memory, and behavior**.
 
 <!-- ## Enhanced Perception
 
