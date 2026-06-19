@@ -13,27 +13,22 @@ title: CV
 <div class="header-columns">
   <div>
     <p>
-      Ph.D. candidate at HKUST and visiting student at the MIT Media Lab.<br/>
-      I build AI-powered assistive systems for blind and aging populations.
+      Ph.D. candidate at HKUST<br/>
+      Visiting student at the MIT Media Lab
     </p>
   </div>
   <div>
     <ul class="right-align">
-      <li><i class="fa-solid fa-globe muted"></i> <a href="{{ absolute_url }}/">shuchangxu.github.io</a></li>
-      <li><i class="fa-solid fa-envelope muted"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      <li><i class="ai ai-google-scholar muted"></i> <a href="{{ site.google_scholar }}">Google Scholar</a></li>
       <li><i class="fa-solid fa-file-pdf muted"></i> <a href="{{ '/assets/files/ShuchangXu-CV.pdf' | relative_url }}">PDF version</a></li>
     </ul>
   </div>
 </div>
 
-
 <h2>Research Area</h2>
 
 <p>
-My research builds <strong>AI-powered assistive systems</strong> that augment human perception and cognition, with a focus on enhancing accessibility for blind and aging populations. I combine methods from <strong>human-computer interaction</strong>, <strong>multi-modal machine learning</strong>, and <strong>accessible computing</strong>, spanning personalized memory agents for reminiscence, video accessibility, and multi-sensory interfaces for navigation.
+My research focuses on <strong>AI-powered assistive systems that enhance human cognition</strong>, with a particular focus on three cognitive pillars: <a href="{{ '/research/' | absolute_url }}#perception-support---accessing-digital-media">perception</a>, <a href="{{ '/research/' | absolute_url }}#memory-and-reasoning-support">memory</a>, and <a href="{{ '/research/' | absolute_url }}#behavior-support">behavior</a>.
 </p>
-
 
 <h2>Education</h2>
 
@@ -51,7 +46,7 @@ My research builds <strong>AI-powered assistive systems</strong> that augment hu
 {% endfor %}
 
 
-<h2>Experience</h2>
+<h2>Working Experience</h2>
 
 {% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
 {% for pos in filtered_positions %}
@@ -82,30 +77,18 @@ My research builds <strong>AI-powered assistive systems</strong> that augment hu
 
 <h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
 
-{% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
+{% assign sorted_pubs = site.publications | where_exp:"p","p.type contains 'Conference' or p.type contains 'Journal'" | sort: 'year' | reverse %}
 
-{% assign types = "Conference|Journal" | split: "|" %}
-{% for type in types %}
-  {% assign count = 0 %}
-  {% for pub in sorted_pubs %}{% if pub.type[0] == type %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
-  {% if count > 0 %}
-  <h3 class="pub-type">{{ type }}</h3>
-  {% assign counter = count %}
-  {% for pub in sorted_pubs %}
-    {% if pub.type[0] == type %}
-      <div class="pub">
-        <div class="ref-container">{{ type | slice: 0 }}{{ counter }}</div>
-        <strong class="fill">{% if pub.pdf %}<a href="{{ pub.pdf }}">{{ pub.title }}</a>{% elsif pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.doi %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong>
-        <div>
-          {% for author in pub.authors %}{% include person person=author %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
-          {% if pub.venue %}<i>{{ pub.venue }}</i>, {% endif %}{{ pub.year }}.
-          {% for award in pub.awards %}<strong class="award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ award }}</strong>{% endfor %}
-        </div>
-      </div>
-      {% assign counter = counter | minus: 1 %}
-    {% endif %}
-  {% endfor %}
-  {% endif %}
+{% for pub in sorted_pubs %}
+  <div class="pub">
+    <div class="ref-container">{{ forloop.index }}</div>
+    <strong class="fill">{% if pub.pdf %}<a href="{{ pub.pdf }}">{{ pub.title }}</a>{% elsif pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.doi %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong>
+    <div>
+      {% for author in pub.authors %}{% include person person=author %}{% if pub.equal_contrib and site.data.people[author].me and forloop.index <= pub.equal_contrib %} (co-first author){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
+      {% if pub.venue %}<i>{{ pub.venue }}</i>, {% endif %}{{ pub.year }}.
+      {% for award in pub.awards %}<strong class="award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ award }}</strong>{% endfor %}
+    </div>
+  </div>
 {% endfor %}
 
 </section>

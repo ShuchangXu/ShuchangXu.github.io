@@ -9,14 +9,14 @@ class: pubs
 # Publications
 
 {:.lead}
-A full list of my publications. <b>Bold</b> name marks my contributions. See also my [Google Scholar]({{ site.google_scholar }}).
+Selected publications are listed below. Please see my [Google Scholar]({{ site.google_scholar }}) for the full list.
 
 {% assign recent_years = "2026,2025" | split: "," %}
 {% for ys in recent_years %}
 {% assign y = ys | plus: 0 %}
 ## {{ y }}
 {:.year}
-{% assign items = site.publications | where_exp:"p","p.year == y" | sort: "order" %}
+{% assign items = site.publications | where_exp:"p","p.year == y" | sort: "pub_order" %}
 {% for pub in items %}
   {% include publication.html pub=pub %}
 {% endfor %}
@@ -24,7 +24,7 @@ A full list of my publications. <b>Bold</b> name marks my contributions. See als
 
 ## 2020–2024
 {:.year}
-{% assign mid = site.publications | where_exp:"p","p.year >= 2020 and p.year <= 2024" | sort: "year" | reverse %}
+{% assign mid = site.publications | where_exp:"p","p.year >= 2020 and p.year <= 2024" | sort: "pub_order" %}
 {% for pub in mid %}
   {% include publication.html pub=pub %}
 {% endfor %}

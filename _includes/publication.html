@@ -3,19 +3,13 @@
 {% unless figlink %}{% assign figlink = pub.pdf %}{% endunless %}
 {% unless figlink %}{% if pub.arxiv %}{% assign figlink = "https://arxiv.org/abs/" | append: pub.arxiv %}{% endif %}{% endunless %}
 {% unless figlink %}{% if pub.doi %}{% assign figlink = "https://doi.org/" | append: pub.doi %}{% endif %}{% endunless %}
-<div class="publication{% if pub.image %} has-figure{% endif %}">
-  {% if pub.image %}
-    <div class="pub-figure">
-      {% if figlink %}<a href="{{ figlink }}">{% endif %}
-        <img src="{{ pub.image | relative_url }}" alt="Teaser figure for {{ pub.title }}" loading="lazy">
-      {% if figlink %}</a>{% endif %}
-    </div>
-  {% endif %}
+<div class="publication">
   <div class="pub-body">
     <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award contains "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
     <div class="authors">
-      {% for author in pub.authors %}{% include person person=author %}{% unless forloop.last %}, {% endunless %}
+      {% for author in pub.authors %}{% include person person=author %}{% if pub.equal_contrib and forloop.index <= pub.equal_contrib %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
+      {% if pub.equal_contrib %}<span class="equal-note"><sup>*</sup> Co-first authors</span>{% endif %}
     </div>
     {% if pub.venue %}
       <div class="venue">

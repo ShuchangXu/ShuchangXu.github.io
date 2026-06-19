@@ -169,9 +169,29 @@
     ul {
       list-style: none;
       margin-left: 0;
+      margin-bottom: 0;
+
+      // Folded scroll view: shows ~3 items, scroll for the rest.
+      max-height: 14.5em;
+      overflow-y: auto;
+      padding: 16px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+
+      // Keep it scrollable but hide the scrollbar.
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       li {
         margin-bottom: 1em;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
 
       time {

@@ -6,8 +6,6 @@
 {% assign shortname = pub.title | split: ":" | first | strip %}
 {% assign subtitle = pub.title | split: ":" | last | strip %}
 <div class="project">
-  <span class="title">{{ shortname }}</span>
-  {% if pub.venue %}<span class="card-venue">({{ pub.venue }}{% unless pub.no_year %} {{ pub.year }}{% endunless %})</span>{% endif %}
   {% if pub.image %}
     {% if rlink %}<a href="{{ rlink }}" class="preview-image" style="background-image: url('{{ pub.image | relative_url }}')"></a>
     {% else %}<span class="preview-image" style="background-image: url('{{ pub.image | relative_url }}')"></span>{% endif %}
@@ -15,7 +13,11 @@
     {% if rlink %}<a href="{{ rlink }}" class="preview-image preview-blank"></a>
     {% else %}<span class="preview-image preview-blank"></span>{% endif %}
   {% endif %}
-  <p>{% if subtitle != shortname %}{{ subtitle }}{% endif %}</p>
+  <div class="project-body">
+  <span class="title">{% for award in pub.awards %}<i class="fas fa-{% if award contains "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ shortname }}</span>
+  {% if pub.awards %}<span class="card-venue">{% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% elsif pub.venue %}<span class="card-venue">{{ pub.venue }}{% unless pub.no_year %} {{ pub.year }}{% endunless %}</span>{% endif %}
+  {% if pub.description %}<p>{{ pub.description }}</p>{% elsif subtitle != shortname %}<p>{{ subtitle }}</p>{% else %}<p></p>{% endif %}
+  {% if pub.authors %}<span class="card-authors">{% for author in pub.authors %}{% include person person=author %}{% if pub.equal_contrib and forloop.index <= pub.equal_contrib %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if pub.equal_contrib %} <span class="equal-note"><sup>*</sup> Co-first authors</span>{% endif %}</span>{% endif %}
   <div class="spacer"></div>
   <div class="links">
     {% if pub.pdf %}
@@ -32,5 +34,6 @@
     {% if pub.doi %}
       <a href="https://doi.org/{{ pub.doi }}"><i class="fas fa-book" aria-hidden="true"></i> DOI</a>
     {% endif %}
+  </div>
   </div>
 </div>

@@ -194,6 +194,13 @@
       }
     }
 
+    .equal-note {
+      margin-left: 0.4em;
+      font-size: 0.85em;
+      font-style: italic;
+      color: $grey-color;
+    }
+
     .venue,
     .venue a {
       color: $grey-color;

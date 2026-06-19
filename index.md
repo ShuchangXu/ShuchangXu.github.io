@@ -36,7 +36,7 @@ My research focuses on developing AI-powered assistive systems that augment **hu
 
 **3. Multi-Sensory Interfaces for Outdoor Navigation.** I develop wearable systems that support navigation through multi-sensory feedback: on-body haptics ([IMWUT 2020](https://dl.acm.org/doi/abs/10.1145/3411814)), handheld vibrations ([CHI 2021](https://dl.acm.org/doi/10.1145/3411764.3445644)), and head-mounted light cues ([IMWUT 2021](https://dl.acm.org/doi/10.1145/3463524)).
 
-## Featured <a href="{{ "/publications/" | relative_url }}">Publications</a>
+## <a href="{{ "/publications/" | relative_url }}">Featured Publications</a>
 
 <div class="featured-publications">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
@@ -57,9 +57,9 @@ My research focuses on developing AI-powered assistive systems that augment **hu
   Show All Publications
 </a>
 
-## Featured <a href="{{ "/interests/" | relative_url }}">Game Projects</a>
+## <a href="{{ "/interests/" | relative_url }}">Interests</a>
 
-Beyond research, I design indie games that engage players with real-world societal issues.
+Beyond research, I create indie games that engage players with real-world social issues.
 
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
@@ -72,7 +72,7 @@ Beyond research, I design indie games that engage players with real-world societ
 
 <a href="{{ "/interests/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  Show More Projects
+  Show More Interests
 </a>
 
 ## News

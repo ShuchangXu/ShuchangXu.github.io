@@ -9,42 +9,34 @@ class: projects
 # Research
 
 {:.lead}
-My research explores how AI technologies can enhance human cognition across three core areas: perception, memory, and behavior.
+My research focuses on developing AI-powered assistive systems to **enhance human cognition across three core areas: perception, memory, and behavior**.
 
-## Enhanced Perception
+<!-- ## Enhanced Perception
 
-My research enhances how blind users perceive and engage with visual information across digital media and physical environments.
+My research improves visual access for blind users across digital media and the physical world. -->
 
-### Digital Media Accessibility for Blind Users
-
-I develop multimodal AI systems that transform visual content into structured, interactive narratives, enabling blind users to understand and engage with images and videos more effectively.
+## Perception Support - Accessing Digital Media
 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "video" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-### Physical World Accessibility for Blind Users
-
-I design multisensory on-body interfaces that provide real-time navigation feedback, helping blind users identify and follow walkable paths safely and efficiently.
+## Perception Support - Navigating Physical World
 
 <div class="grid">
 {% assign items = site.publications | where: "subgroup", "navigation" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Enhanced Memory
-
-My research supports how people revisit and reason over personal information, designing AI agents that make reminiscence and problem-solving more engaging and accessible.
+## Memory and Reasoning Support
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Memory and Reasoning" | sort: "order" %}
 {% for pub in items %}{% include research_card.html pub=pub %}{% endfor %}
 </div>
 
-## Enhanced Behavior
-
-My research fosters healthier and more effective everyday behaviors, creating interactive experiences that support relaxation, skill-building, and well-being.
+## Behavior Support
 
 <div class="grid">
 {% assign items = site.publications | where: "theme", "Enhanced Behavior" | sort: "order" %}

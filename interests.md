@@ -2,14 +2,14 @@
 layout: page
 permalink: /interests/
 title: Interests
-class: projects
+class: interests
 ---
 
 {:.hidden}
 # Interests
 
 {:.lead}
-Beyond my research, I enjoy creating indie games that raise awareness of real-world social issues, such as gender equity and online credibility.
+Beyond my research, I create indie games that engage players with real-world social issues.
 
 <div class="grid">
   {% for project in site.data.projects %}
