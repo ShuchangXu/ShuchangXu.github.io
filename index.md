@@ -65,7 +65,7 @@ Here are a few recent publications:
 
 <div class="projects">
 <div class="grid">
-  {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
+  {% assign sorted_publications = site.publications | sort: 'highlight' %}
   {% for pub in sorted_publications %}{% if pub.highlight %}{% include research_card.html pub=pub %}{% endif %}{% endfor %}
 </div>
 </div>
