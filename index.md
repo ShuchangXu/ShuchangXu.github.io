@@ -7,7 +7,7 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-Hi, I'm Shuchang Xu, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Previously, I earned my bachelor’s and master’s degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/) under the guidance of Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
+Hi, I'm Shuchang Xu, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently visiting the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Previously, I earned my bachelor’s and master’s degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/) under the guidance of Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
 
 My research focuses on **AI-powered assistive systems that enhance human cognition**, particularly across three core cognitive stages: perception, memory, and behavior. My work has been published at CHI, UIST, and UbiComp, and has received Best Paper Honorable Mention Awards at CHI and UIST.
 </div>
