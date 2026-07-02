@@ -7,9 +7,9 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-Hi, I'm Shuchang Xu, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Before my Ph.D., I completed my undergraduate and master's studies at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I was advised by Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
+Hi, I'm Shuchang Xu, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I'm currently a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I work with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Previously, I earned my bachelor’s and master’s degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/) under the guidance of Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
 
-My research focuses on **AI-powered assistive systems that enhance human cognition**, with an emphasis on perception, memory, and behavior. My work has been published at CHI, UIST, and UbiComp, and has received Best Paper Honorable Mention Awards at CHI and UIST.
+My research focuses on **AI-powered assistive systems that enhance human cognition**, particularly across three core cognitive stages: perception, memory, and behavior. My work has been published at CHI, UIST, and UbiComp, and has received Best Paper Honorable Mention Awards at CHI and UIST.
 </div>
 
 
@@ -25,7 +25,7 @@ My research focuses on **AI-powered assistive systems that enhance human cogniti
 
 ## <a href="{{ "/research/" | relative_url }}">Research Overview</a>
 
-My research focuses on AI-powered assistive systems that **enhance human cognition across three core areas: perception, memory, and behavior.**
+My research focuses on AI-powered assistive systems that **enhance human cognition across three core cognitive stages: perception, memory, and behavior.**
 
 <div class="projects overview">
 <div class="grid">
@@ -59,7 +59,6 @@ My research focuses on AI-powered assistive systems that **enhance human cogniti
 </a>
 
 ## <a href="{{ "/publications/" | relative_url }}">Featured Publications</a>
-Here are a few recent publications:
 
 <div class="projects">
 <div class="grid">
