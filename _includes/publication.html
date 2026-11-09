@@ -11,7 +11,7 @@
     </div>
   {% endif %}
   <div class="pub-body">
-    <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award contains "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
+    <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award contains "Honorable Mention" %}medal{% elsif award contains "Best Paper" %}trophy{% elsif award contains "Test-of-Time" %}clock{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
     <div class="authors">
       {% for author in pub.authors %}{% include person person=author %}{% if pub.equal_contrib and forloop.index <= pub.equal_contrib %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}
       {% endfor %}

@@ -13,8 +13,7 @@ title: CV
 <div class="header-columns">
   <div>
     <p>
-      Ph.D. candidate at HKUST<br/>
-      Former visiting student at the MIT Media Lab
+      Ph.D. candidate at HKUST
     </p>
   </div>
   <div>
@@ -86,7 +85,7 @@ My research focuses on <strong>AI-powered assistive systems that enhance human c
     <div>
       {% for author in pub.authors %}{% include person person=author %}{% if pub.equal_contrib and site.data.people[author].me and forloop.index <= pub.equal_contrib %} (co-first author){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
       {% if pub.venue %}<i>{{ pub.venue }}</i>, {% endif %}{{ pub.year }}.
-      {% for award in pub.awards %}<strong class="award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ award }}</strong>{% endfor %}
+      {% for award in pub.awards %}<strong class="award"><i class="fas fa-{% if award contains "Honorable Mention" %}medal{% elsif award contains "Best Paper" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</strong>{% endfor %}
     </div>
   </div>
 {% endfor %}

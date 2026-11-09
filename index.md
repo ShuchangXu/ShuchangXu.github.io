@@ -7,11 +7,11 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-Hi, I'm Shuchang Xu, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I was a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I worked with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Previously, I earned my bachelor’s and master’s degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/) under the guidance of Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
+I'm Shuchang Xu, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), advised by Prof. [Huamin Qu](http://www.huamin.org/). I was a visiting student at the [MIT Media Lab](https://www.media.mit.edu/groups/fluid-interfaces/overview/), where I worked with Prof. [Pattie Maes](https://www.media.mit.edu/people/pattie/overview/). Previously, I earned my bachelor’s and master’s degrees from [Tsinghua University](https://www.tsinghua.edu.cn/en/) under the guidance of Prof. [Yuanchun Shi](https://pi.cs.tsinghua.edu.cn).
 
 My research develops **AI-powered assistive systems that enhance human cognition**. 
 Specifically, I design, build, and evaluate interactive systems that support human perception, memory, and behavior, empowering people to navigate everyday activities independently and reach their full potential. 
-My work has been published at leading venues, including CHI, UIST, and UbiComp, and has received three Best Paper and Honorable Mention Awards at CHI and UIST.
+My work has been published at leading venues, including CHI, UIST, and UbiComp, and has received **three Best Paper and Honorable Mention Awards** at CHI and UIST.
 </div>
 
 
