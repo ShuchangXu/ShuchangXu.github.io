@@ -170,7 +170,24 @@
     }
   }
 
+  .linkedin-posts {
+    margin-top: 16px;
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 300px;
+      border: 1.5px solid $card-border;
+      border-radius: 4px;
+      background: #fff;
+    }
+  }
+
   .news {
+    .fa-trophy {
+      color: $yellow-color;
+    }
+
     ul {
       list-style: none;
       margin-left: 0;

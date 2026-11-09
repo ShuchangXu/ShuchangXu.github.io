@@ -101,3 +101,9 @@ Beyond research, I love to **create indie games that reflect on real-world socia
   {% endfor %}
 </ul>
 </div>
+
+<div class="linkedin-posts">
+  {% for id in site.data.linkedin limit: 1 %}
+    <div class="linkedin-post"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:{{ id }}" title="LinkedIn post" loading="lazy" allowfullscreen></iframe></div>
+  {% endfor %}
+</div>

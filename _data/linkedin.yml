@@ -1,0 +1,6 @@
+# LinkedIn posts for the front page. Only the FIRST one is shown, below the News section
+# (see `limit: 1` in index.md). Move a post to the top to show it instead.
+# Use the number from the post URL: linkedin.com/feed/update/urn:li:activity:<id>/
+- 7524669817027469313
+- 7521964562607325184
+- 7494754884844646401
